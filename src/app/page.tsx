@@ -8,8 +8,6 @@ import Testimonials from "@/app/components/testimonials";
 import GetInTouch from "@/app/components/getInTouch";
 import Footer from "@/app/components/footer";
 
-import Image from 'next/image';
-
 export default function Home() {
   return (
     <div>
