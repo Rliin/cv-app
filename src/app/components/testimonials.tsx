@@ -1,4 +1,4 @@
-import { CircleUser, CircleUserRound } from "lucide-react";
+import { CircleUserRound } from "lucide-react";
 
 function Testimonials() {
   return (

@@ -7,7 +7,7 @@ function GetInTouch() {
         <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#525A68]">Get in touch</h1>
       </div>
       <div className="flex justify-center pt-5">
-        <p>What's next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
+        <p>What&apos;s next? Feel free to reach out to me if you&apos;re looking for a developer, have a query, or simply want to connect.</p>
       </div>
       <div className="flex flex-col gap-5 mt-15">
         <div className="flex flex-row gap-6 justify-center items-center">

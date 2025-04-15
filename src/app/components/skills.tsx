@@ -17,10 +17,10 @@ function Skills () {
   )
 }
 
-function ListSkills (props: any) {
+function ListSkills (props: { skillsdata: Array<{ logo: string, text: string }> }) {
   return(
     <div className="grid grid-cols-8 mt-5">
-      {props.skillsdata.map((skill: any, index: number) => (
+      {props.skillsdata.map((skill, index: number) => (
         <div key={index} className="flex flex-col items-center p-4">
           <div className="mb-2">
             <Image 
