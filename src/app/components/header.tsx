@@ -2,7 +2,7 @@ import { MoonStar } from "lucide-react"
 
 const Header = () => {
   return (
-    <header className="z-100 fixed top-0 right-0 left-0 flex justify-around between bg-[#030712] shadow-[0px_2px_6px_0px_rgba(0,_0,_0,_0.8)]">
+    <header className="z-100 fixed top-0 right-0 left-0 flex justify-around between bg-[#030712] shadow-[0px_4px_6px_0px_030712]">
       <a href="#introduction" className="flex items-center text-lg font-bold">
         {"<BC />"}
       </a>
