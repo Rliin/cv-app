@@ -2,7 +2,7 @@ import { CircleUserRound } from "lucide-react";
 
 function Testimonials() {
   return (
-    <div className="bg-[#111827] py-25 px-35 text-gray-400">
+    <section id="testimonials" className="bg-[#111827] py-25 px-35 text-gray-400">
       <div className="flex justify-center">
         <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#525A68]">Testimonials</h1>
       </div>
@@ -41,7 +41,7 @@ function Testimonials() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

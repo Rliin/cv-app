@@ -2,13 +2,13 @@ import Image from 'next/image';
 
 const AboutMe = () => {
     return (
-        <div className="bg-[#111827] pt-25 px-35 text-gray-400 ">
+        <section id="aboutMe" className="bg-[#111827] py-25 px-35 text-gray-400 ">
             <div className="flex justify-center">
                 <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#525A68]">About Me</h1>
             </div>
             <div className="flex justify-around flex-row py-10">
-                <div className="wx-1/2 flex justify-center *:rounded-lg">
-                    <Image src="/PhotoAboutMe.jpg" alt="About me" width={500} height={500} />
+                <div className="flex justify-center *:rounded-lg w-1/2">
+                    <Image src="/PhotoAboutMe.jpg" alt="About me" width={400} height={400} />
                 </div>
                 <div className="w-1/2">
                     <h1 className="pb-5 text-white text-[25px]">Curious about me? Here you have it:</h1>
@@ -24,19 +24,21 @@ const AboutMe = () => {
                         <br />
                         <br />
                         Finally, some quick bits about me.
-                        <br />
-                        <br />
-                        • B.E. in Computer Engineering
-                        • Full time freelancer
-                        • Avid learner
-                        • Aspiring indie hacker
-                        <br />
-                        <br />
-                        One last thing, I&apos;m available for freelance work, so feel free to reach out and say hello! I promise I don&apos;t bite
+                    </p>
+                    <br />
+                    <ol className="*:m-1 grid grid-cols-2">
+                        <li> • B.E. in Computer Engineering </li>
+                        <li> • Full time freelancer </li>
+                        <li> • Avid learner </li>
+                        <li> • Aspiring indie hacker </li>
+                    </ol>
+                    <br />
+                    <p>
+                        One last thing, I&apos;m available for freelance work, so feel free to reach out and say hello! I promise I don&apos;t bite 😉
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
