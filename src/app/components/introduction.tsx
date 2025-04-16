@@ -1,4 +1,4 @@
-import { Circle, Github, Linkedin, MapPin } from "lucide-react";
+import { Github, Linkedin, MapPin } from "lucide-react";
 import Image from "next/image";
 
 const locationName = "Eskişehir, Türkiye";
