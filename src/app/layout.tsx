@@ -13,8 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Burkay Çetinkaya",
-  description: "CV-APP Burkay Cetinkaya",
+  title: "Burkay",
+  description: "Burkay CV-APP",
+  icons: {
+    icon: ['/favicon.ico?v=4'],
+    apple: ['/apple-touch-icon.png?v=4'],
+    shortcut: ['/apple-touch-icon.png'],
+  },
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
