@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Burkay",
   description: "Burkay CV-APP",
   icons: {
-    icon: ['/favicon.ico?v=4'],
+    /* icon: ['/favicon.ico?v=4'], */
     apple: ['/apple-touch-icon.png?v=4'],
     shortcut: ['/apple-touch-icon.png'],
   },
