@@ -2,7 +2,7 @@ import { Copy, Github, Linkedin, Mail, Phone } from "lucide-react";
 
 function GetInTouch() {
   return (
-    <section id="getInTouch" className="bg-[#030712] py-25 px-35 text-gray-400">
+    <section id="getInTouch" className="bg-[#030712] py-25 px-10 lg:px-25 xl:px-35 text-gray-400">
       <div className="flex justify-center">
         <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#525A68]">Get in touch</h1>
       </div>

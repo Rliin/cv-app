@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <section
       id="aboutMe"
-      className="bg-[#111827] py-25 lg:p-25 xl:p-35 px-20 text-gray-400 "
+      className="bg-[#111827] py-25 lg:px-25 xl:px-35 px-10 text-gray-400 "
     >
       <div className="flex justify-center">
         <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#525A68]">
@@ -12,7 +12,7 @@ const AboutMe = () => {
         </h1>
       </div>
       <div className="flex flex-col lg:flex-row justify-around gap-10 py-10">
-        <div className="flex justify-center *:rounded-lg lg:w-1/2">
+        <div className="flex justify-center *:rounded-lg lg:w-1/2 px-10">
             <div>
           <Image
             src="/PhotoAboutMe.jpg"

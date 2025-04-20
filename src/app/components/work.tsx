@@ -22,7 +22,7 @@ function Work() {
             height={650}
           />
         </div>
-        <div className="bg-[#1F2937] rounded-b-lg lg:rounded-r-lg p-15 *:mb-5">
+        <div className="bg-[#1F2937] rounded-b-lg lg:rounded-r-lg p-5 lg:p-15 *:mb-5">
           <h1 className="text-white text-xl">Fiskil</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <ul className="*:px-7 *:py-1 *:mr-2 *:my-1 *:bg-[#374151] *:rounded-full flex flex-wrap font-bold">
@@ -47,7 +47,7 @@ function Work() {
         </div>
       </div>
       <div className="work-item-utility">
-        <div className="order-last lg:order-first bg-[#1F2937] rounded-b-lg lg:rounded-l-lg p-15 *:mb-5">
+        <div className="order-last lg:order-first bg-[#1F2937] rounded-b-lg lg:rounded-l-lg p-5 lg:p-15 *:mb-5">
           <h1 className="text-white text-xl">Fiskil</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <ul className="*:px-7 *:py-1 *:mr-2 *:my-1 *:bg-[#374151] *:rounded-full flex flex-wrap font-bold">
@@ -91,7 +91,7 @@ function Work() {
             height={650}
           />
         </div>
-        <div className="bg-[#1F2937] rounded-b-lg lg:rounded-r-lg p-15 *:mb-5">
+        <div className="bg-[#1F2937] rounded-b-lg lg:rounded-r-lg p-5 lg:p-15 *:mb-5">
           <h1 className="text-white text-xl">Fiskil</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <ul className="*:px-7 *:py-1 *:mr-2 *:my-1 *:bg-[#374151] *:rounded-full flex flex-wrap font-bold">
