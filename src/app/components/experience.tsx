@@ -21,7 +21,7 @@ function Experience() {
         </div>
         <div className="order-3 lg:order-2 lg:px-20">
           <h1 className="text-white text-xl pb-3">Sr. Frontend Developer</h1>
-          <ul className="list-disc">
+          <ul className="list-disc ml-5">
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
             <li>Ut enim ad minim veniam</li>
             <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
@@ -40,7 +40,7 @@ function Experience() {
         </div>
         <div className="order-3 lg:order-2 lg:px-20">
           <h1 className="text-white text-xl pb-3">Sr. Frontend Developer</h1>
-          <ul className="list-disc">
+          <ul className="list-disc ml-5">
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
             <li>Ut enim ad minim veniam</li>
             <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
@@ -59,7 +59,7 @@ function Experience() {
         </div>
         <div className="order-3 lg:order-2 lg:px-20">
           <h1 className="text-white text-xl pb-3">Sr. Frontend Developer</h1>
-          <ul className="list-disc">
+          <ul className="list-disc ml-5">
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
             <li>Ut enim ad minim veniam</li>
             <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
