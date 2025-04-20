@@ -7,7 +7,6 @@ import {
   X,
   User,
   Briefcase,
-  MessageCircle,
   Mail,
   FileDown,
 } from "lucide-react";
@@ -43,10 +42,7 @@ const Header = () => {
         <a href="#testimonials">Testimonials</a>
         <a href="#getInTouch">Contact</a>
         <div className="self-center w-px h-5.5 bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25"></div>
-        {/* <a className="cursor-pointer">
-          <MoonStar size={20} />
-        </a> */}
-        <ModeToggle />
+        <ModeToggle/>
         <Link
           className="bg-black text-white dark:bg-white dark:text-black px-4.5 py-1.5 hover:bg-slate-400 dark:hover:bg-slate-800 transition duration-400 hover:text-black dark:hover:text-white"
           href="./CV - Burkay Cetinkaya.pdf"
