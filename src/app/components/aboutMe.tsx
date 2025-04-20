@@ -4,23 +4,26 @@ const AboutMe = () => {
   return (
     <section
       id="aboutMe"
-      className="bg-[#111827] py-25 comp-padding-x text-gray-400 "
+      className="bg-[#111827] py-25 lg:p-25 xl:p-35 px-20 text-gray-400 "
     >
       <div className="flex justify-center">
         <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#525A68]">
           About Me
         </h1>
       </div>
-      <div className="flex justify-around flex-row py-10">
-        <div className="flex justify-center *:rounded-lg w-1/2">
+      <div className="flex flex-col lg:flex-row justify-around gap-10 py-10">
+        <div className="flex justify-center *:rounded-lg lg:w-1/2">
+            <div>
           <Image
             src="/PhotoAboutMe.jpg"
             alt="About me"
+            height={250}
             width={400}
-            height={400}
-          />
+            className="rounded-lg"
+            />
+            </div>
         </div>
-        <div className="w-1/2">
+        <div className="mt-10 lg:mt-0 lg:w-1/2">
           <h1 className="pb-5 text-white text-[25px]">
             Curious about me? Here you have it:
           </h1>

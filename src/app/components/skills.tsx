@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function Skills () {
   return (
-    <div className="bg-[#030712] py-25 px-35 text-gray-400">
+    <div className="bg-[#030712] py-25 lg:p-25 xl:p-35 text-gray-400">
       <div className="flex justify-center">
         <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#525A68]">Skills</h1>
       </div>
@@ -19,7 +19,7 @@ function Skills () {
 
 function ListSkills (props: { skillsdata: Array<{ logo: string, text: string }> }) {
   return(
-    <div className="grid grid-cols-8 mt-5">
+    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 mt-5">
       {props.skillsdata.map((skill, index: number) => (
         <div key={index} className="flex flex-col items-center p-4">
           <div className="mb-2">

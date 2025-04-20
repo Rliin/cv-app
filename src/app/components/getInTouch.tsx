@@ -11,13 +11,13 @@ function GetInTouch() {
       </div>
       <div className="flex flex-col gap-5 mt-15">
         <div className="flex flex-row gap-6 justify-center items-center">
-          <Mail size={35} />
-          <h1 className="text-4xl text-white">burkay.cetinkaya.ds@gmail.com</h1>
-          <Copy size={35} />
+          <Mail size={35}/>
+          <h1 className="text-lg lg:text-[min(2vw,2.5rem)] text-white">burkay.cetinkaya.ds@gmail.com</h1>
+          <Copy size={35}/>
         </div>
         <div className="flex flex-row gap-6 justify-center items-center">
           <Phone size={35} />
-          <h1 className="text-4xl text-white">+90 554 380 4200</h1>
+          <h1 className="text-lg lg:text-[2vw] text-white">+90 554 380 4200</h1>
           <Copy size={35} />
         </div>
 

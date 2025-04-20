@@ -38,7 +38,7 @@ body {
 }
 
 .work-item-utility {
-  @apply flex flex-row px-15 pt-15 *:w-1/2;
+  @apply flex flex-col lg:flex-row px-10 xl:px-10 pt-15 lg:*:w-1/2 mx-auto;
 }
 
 .hover-effect-utility-child > * {

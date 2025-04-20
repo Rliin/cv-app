@@ -9,8 +9,8 @@ function Testimonials() {
       <div className="flex justify-center pt-5">
         <p>Nice things people have said about me:</p>
       </div>
-      <div className="flex flex-row gap-18 *:shadow-[0px_2px_6px_0px_rgba(0,_0,_0,_0.8)] **:[&>h3]:text-lg **:[&>h1]:text-white **:[&>h1]:text-2xl **:[&>h1]:font-bold **:[&>h1]:mb-1">
-        <div className="flex flex-col text-xl items-center gap-10 bg-[#1F2937] mt-15 py-15 px-15 rounded-lg w-1/3">
+      <div className="flex flex-col xl:flex-row xl:gap-18 *:shadow-[0px_2px_6px_0px_rgba(0,_0,_0,_0.8)] **:[&>h3]:text-lg **:[&>h1]:text-white **:[&>h1]:text-2xl **:[&>h1]:font-bold **:[&>h1]:mb-1">
+        <div className="flex flex-col text-xl items-center gap-10 bg-[#1F2937] mt-15 py-15 px-15 rounded-lg xl:w-1/3 mx-auto">
         <CircleUserRound 
         size={64} 
         color="black"/>
@@ -20,7 +20,7 @@ function Testimonials() {
           <h3>Founder - xyz.com</h3>
           </div>
         </div>
-        <div className="flex flex-col text-xl items-center gap-10 bg-[#1F2937] mt-15 py-15 px-15 rounded-lg w-1/3">
+        <div className="flex flex-col text-xl items-center gap-10 bg-[#1F2937] mt-15 py-15 px-15 rounded-lg xl:w-1/3 mx-auto">
         <CircleUserRound 
         size={64} 
         color="black"/>
@@ -30,7 +30,7 @@ function Testimonials() {
           <h3>Founder - abc.com</h3>
           </div>
         </div>
-        <div className="flex flex-col text-xl items-center gap-10 bg-[#1F2937] mt-15 py-15 px-15 rounded-lg w-1/3">
+        <div className="flex flex-col text-xl items-center gap-10 bg-[#1F2937] mt-15 py-15 px-15 rounded-lg xl:w-1/3 mx-auto">
         <CircleUserRound 
         size={64} 
         color="black"/>
