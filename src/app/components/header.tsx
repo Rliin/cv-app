@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useState } from "react";
 import { Menu, MoonStar, X } from "lucide-react";
+import { ModeToggle } from './modeToggle';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header className="z-50 fixed top-0 right-0 left-0 flex flex-wrap justify-around items-center bg-[#030712] shadow-[0px_4px_6px_0px_030712]">
+    <header className="z-50 fixed top-0 right-0 left-0 flex flex-wrap justify-around items-center bg-white dark:bg-[#030712] shadow-[0px_4px_6px_0px_030712]">
       <div className="flex justify-around items-center w-full px-4 py-3 md:w-auto md:px-6">
         <a href="#introduction" className="flex items-center text-lg font-bold">
           {"<BC />"}
@@ -27,17 +28,18 @@ const Header = () => {
       </div>
 
       {/* Navigation - Desktop */}
-      <nav className="hidden md:flex items-center justify-end bg-[#030712] gap-5 p-5 text-sm text-gray-400 *:rounded-lg [&>a]:hover:scale-105 [&>a]:hover:text-white [&>a]:transition-all [&>a]:duration-400">
+      <nav className="hidden md:flex items-center justify-end bg-white dark:bg-[#030712] gap-5 p-5 text-sm dark:text-gray-400 *:rounded-lg [&>a]:hover:scale-105 dark:[&>a]:hover:text-white [&>a]:transition-all [&>a]:duration-400">
         <a href="#aboutMe">About</a>
         <a href="#work">Work</a>
         <a href="#testimonials">Testimonials</a>
         <a href="#getInTouch">Contact</a>
         <div className="self-center w-px h-5.5 bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25"></div>
-        <a className="cursor-pointer">
+        {/* <a className="cursor-pointer">
           <MoonStar size={20} />
-        </a>
+        </a> */}
+        <ModeToggle/>
         <Link 
-        className="bg-white text-black px-4.5 py-1.5 hover:bg-slate-800 transition duration-400 hover:text-white"
+        className="bg-black text-white dark:bg-white dark:text-black px-4.5 py-1.5 hover:bg-slate-400 dark:hover:bg-slate-800 transition duration-400 hover:text-black dark:hover:text-white"
         href="./CV - Burkay Cetinkaya.pdf"
         target="_blank"
         >
@@ -48,7 +50,7 @@ const Header = () => {
       {/* Navigation - Mobile */}
       <nav
         className={`${isMenuOpen ? "flex" : "hidden"}
-      flex-col w-full py-3 px-4 bg-gray-950 text-sm text-gray-400 gap-4 md:hidden
+      flex-col w-full py-3 px-4 bg-[#FBFAFC] dark:bg-gray-950 text-sm dark:text-gray-400 gap-4 md:hidden
       `}
       >
         <a
@@ -80,9 +82,7 @@ const Header = () => {
           Contact
         </a>
         <div className="flex items-center justify-around py-2 px-2">
-          <a className="cursor-pointer">
-            <MoonStar size={20} />
-          </a>
+        <ModeToggle/>
           <button className="bg-white text-black px-4.5 py-1.5 hover:bg-slate-800 transition duration-400 hover:text-white">
             Download CV
           </button>

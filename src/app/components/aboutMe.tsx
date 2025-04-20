@@ -4,10 +4,10 @@ const AboutMe = () => {
   return (
     <section
       id="aboutMe"
-      className="bg-[#111827] py-25 lg:px-25 xl:px-35 px-10 text-gray-400 "
+      className="bg-[#FBFAFC] dark:bg-[#111827] py-25 lg:px-25 xl:px-35 px-10 dark:text-gray-400 "
     >
       <div className="flex justify-center">
-        <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#525A68]">
+        <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#E6E8EB] dark:bg-[#525A68]">
           About Me
         </h1>
       </div>
@@ -24,7 +24,7 @@ const AboutMe = () => {
             </div>
         </div>
         <div className="mt-10 lg:mt-0 lg:w-1/2">
-          <h1 className="pb-5 text-white text-[25px]">
+          <h1 className="pb-5 dark:text-white text-[25px]">
             Curious about me? Here you have it:
           </h1>
           <p>

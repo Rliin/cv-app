@@ -4,14 +4,14 @@ const upworkLogoSrc = "/upwork-svgrepo-com.svg"
 
 function Experience() {
   return (
-    <section className="bg-[#111827] py-25 lg:px-25 xl:px-35 text-gray-400">
+    <section className="bg-[#FBFAFC] dark:bg-[#111827] py-25 lg:px-25 xl:px-35 dark:text-gray-400">
       <div className="flex justify-center">
-        <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#525A68]">Experience</h1>
+        <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#E6E8EB] dark:bg-[#525A68]">Experience</h1>
       </div>
       <div className="flex justify-center pt-5">
         <p>Here is a quick summary of my recent experiences:</p>
       </div>
-      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 ">
+      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)]">
         <div className="order-1">
           <Image
             src={upworkLogoSrc}
@@ -30,7 +30,7 @@ function Experience() {
         </div>
         <div className=" order-2 lg:order-3 whitespace-nowrap">Nov 2021 - Present</div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 ">
+      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)]">
         <div className="order-1">
           <Image
             src={upworkLogoSrc}
@@ -49,7 +49,7 @@ function Experience() {
         </div>
         <div className=" order-2 lg:order-3 whitespace-nowrap">Nov 2021 - Present</div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 ">
+      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)]">
         <div className="order-1">
           <Image
             src={upworkLogoSrc}

@@ -13,11 +13,11 @@ const Introduction = () => {
   return (
     <section
       id="introduction"
-      className="flex flex-col lg:flex-row justify-around gap-4 lg:p-25 xl:p-35 py-20 bg-[#030712] text-gray-400"
+      className="flex flex-col lg:flex-row justify-around gap-4 lg:p-25 xl:p-35 py-20 bg-white dark:bg-[#030712] dark:text-gray-400"
     >
       <div className="order-last mx-auto mt-20 lg:mt-0 text-left lg:order-first flex flex-col gap-y-15 text-wrap w-2/3">
         <div>
-          <h1 className="text-5xl font-bold text-white">
+          <h1 className="text-5xl font-bold dark:text-white">
             Hi, I&apos;m Burkay 👋
           </h1>
           <p className="mt-4">
@@ -52,8 +52,8 @@ const Introduction = () => {
       </div>
 
       <div className="order-first lg:order-last *:rounded-lg w-[310px] mx-auto">
-        <div className="absolute bg-[#374151] z-10 m-12 h-70 w-70"></div>
-        <div className="relative z-20 border-10 rounded-lg border-[#030712] h-[310px] w-[310px]">
+        <div className="absolute bg-[#E6E8EB] dark:bg-[#374151] z-10 m-12 h-70 w-70"></div>
+        <div className="relative z-20 border-10 rounded-lg border-white dark:border-[#030712] h-[310px] w-[310px]">
           <Image
             fill={true}
             src="/PhotoIntroduction.jpg"
