@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useState } from "react";
-import { Menu, MoonStar, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { ModeToggle } from './modeToggle';
 
 const Header = () => {

@@ -37,7 +37,7 @@ function Work() {
             <li>Storybook</li>
             <li>Git</li>
           </ul>
-          <div className="w-fit hover:text-white">
+          <div className="w-fit hover-effect-utility-child">
             <a
               href="https://rliin.github.io/rock-paper_scissors-website/"
               target="_blank">
@@ -62,7 +62,7 @@ function Work() {
             <li>Storybook</li>
             <li>Git</li>
           </ul>
-          <div className="w-fit hover:text-white">
+          <div className="w-fit hover-effect-utility-child">
             <a
               href="https://rliin.github.io/rock-paper_scissors-website/"
               target="_blank">
@@ -106,7 +106,7 @@ function Work() {
             <li>Storybook</li>
             <li>Git</li>
           </ul>
-          <div className="w-fit hover:text-white">
+          <div className="w-fit hover-effect-utility-child">
             <a
               href="https://rliin.github.io/rock-paper_scissors-website/"
               target="_blank">

@@ -1,4 +1,4 @@
-import { Copy, Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const linkedInUrl = "https://www.linkedin.com/in/burkay-çetinkaya-485558225/";
 const gitHubUrl = "https://github.com/Rliin";

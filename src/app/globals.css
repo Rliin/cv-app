@@ -68,7 +68,7 @@ body {
 }
 
 .hover-effect-utility-child > *:hover {
-  @apply dark:text-white scale-105 
+  @apply text-black dark:text-white scale-105 
   rotate-x-5 -rotate-y-5;
 }
 
