@@ -28,7 +28,7 @@ const Header = () => {
         </a>
 
         <Button size="icon"
-          className="fixed bottom-15 right-15 z-60 p-2  md:hidden focus:outline-none"
+          className="fixed bottom-10 right-10 z-60 p-2  md:hidden focus:outline-none"
           onClick={toggleMenu}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -55,7 +55,7 @@ const Header = () => {
       {/* Navigation - Mobile */}
       <nav
         className={`${isMenuOpen ? "flex" : "hidden"}
-      fixed bottom-10 right-10 grid grid-cols-3 bg-[#FBFAFC] dark:bg-gray-950 text-sm dark:text-gray-400 gap-4 md:hidden *:flex *:justify-center *:items-center rounded-2xl p-5
+      fixed bottom-5 right-5 grid grid-cols-3 bg-[#FBFAFC] dark:bg-gray-950 text-sm dark:text-gray-400 gap-4 md:hidden *:flex *:justify-center *:items-center rounded-2xl p-5
       `}
       >
         <Button size="icon">
