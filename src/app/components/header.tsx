@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link'
 import { useState } from "react";
 import { Menu, MoonStar, X } from "lucide-react";
 
@@ -35,9 +36,13 @@ const Header = () => {
         <a className="cursor-pointer">
           <MoonStar size={20} />
         </a>
-        <button className="bg-white text-black px-4.5 py-1.5 hover:bg-slate-800 transition duration-400 hover:text-white">
+        <Link 
+        className="bg-white text-black px-4.5 py-1.5 hover:bg-slate-800 transition duration-400 hover:text-white"
+        href="./CV - Burkay Cetinkaya.pdf"
+        target="_blank"
+        >
           Download CV
-        </button>
+        </Link>
       </nav>
 
       {/* Navigation - Mobile */}
