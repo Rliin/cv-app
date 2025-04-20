@@ -17,6 +17,7 @@ html {
   --font-mono: var(--font-geist-mono);
 }
 
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -31,6 +32,11 @@ body {
 }
 
 /* Custom CSS Utilities */
+
+.comp-padding-x {
+  @apply p-35;
+}
+
 .work-item-utility {
   @apply flex flex-row px-15 pt-15 *:w-1/2;
 }
