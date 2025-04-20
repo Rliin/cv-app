@@ -1,9 +1,18 @@
 "use client";
 
-import Link from 'next/link'
+import Link from "next/link";
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
-import { ModeToggle } from './modeToggle';
+import {
+  Menu,
+  X,
+  User,
+  Briefcase,
+  MessageCircle,
+  Mail,
+  FileDown,
+} from "lucide-react";
+import { ModeToggle } from "./modeToggle";
+import { Button } from "@/components/ui/button";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,12 +28,12 @@ const Header = () => {
           {"<BC />"}
         </a>
 
-        <button
-          className="p-2 text-gray-300 md:hidden focus:outline-none"
+        <Button size="icon"
+          className="fixed bottom-15 right-15 z-60 p-2  md:hidden focus:outline-none"
           onClick={toggleMenu}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        </Button>
       </div>
 
       {/* Navigation - Desktop */}
@@ -37,11 +46,11 @@ const Header = () => {
         {/* <a className="cursor-pointer">
           <MoonStar size={20} />
         </a> */}
-        <ModeToggle/>
-        <Link 
-        className="bg-black text-white dark:bg-white dark:text-black px-4.5 py-1.5 hover:bg-slate-400 dark:hover:bg-slate-800 transition duration-400 hover:text-black dark:hover:text-white"
-        href="./CV - Burkay Cetinkaya.pdf"
-        target="_blank"
+        <ModeToggle />
+        <Link
+          className="bg-black text-white dark:bg-white dark:text-black px-4.5 py-1.5 hover:bg-slate-400 dark:hover:bg-slate-800 transition duration-400 hover:text-black dark:hover:text-white"
+          href="./CV - Burkay Cetinkaya.pdf"
+          target="_blank"
         >
           Download CV
         </Link>
@@ -50,43 +59,45 @@ const Header = () => {
       {/* Navigation - Mobile */}
       <nav
         className={`${isMenuOpen ? "flex" : "hidden"}
-      flex-col w-full py-3 px-4 bg-[#FBFAFC] dark:bg-gray-950 text-sm dark:text-gray-400 gap-4 md:hidden
+      fixed bottom-10 right-10 grid grid-cols-3 bg-[#FBFAFC] dark:bg-gray-950 text-sm dark:text-gray-400 gap-4 md:hidden *:flex *:justify-center *:items-center rounded-2xl p-5
       `}
       >
-        <a
-          href="#aboutMe"
-          className="py-2 px-2 hover:text-white"
-          onClick={toggleMenu}
-        >
-          About
-        </a>
-        <a
-          href="#work"
-          className="py-2 px-2 hover:text-white"
-          onClick={toggleMenu}
-        >
-          Work
-        </a>
-        <a
-          href="#testimonials"
-          className="py-2 px-2 hover:text-white"
-          onClick={toggleMenu}
-        >
-          Testimonials
-        </a>
-        <a
-          href="#getInTouch"
-          className="py-2 px-2 hover:text-white"
-          onClick={toggleMenu}
-        >
-          Contact
-        </a>
-        <div className="flex items-center justify-around py-2 px-2">
-        <ModeToggle/>
-          <button className="bg-white text-black px-4.5 py-1.5 hover:bg-slate-800 transition duration-400 hover:text-white">
-            Download CV
-          </button>
+        <Button size="icon">
+          <a
+            href="#aboutMe"
+            className="py-2 px-2 hover:text-white"
+            onClick={toggleMenu}
+          >
+            <User />
+          </a>
+        </Button>
+        <Button size="icon">
+          <a
+            href="#work"
+            className="py-2 px-2 hover:text-white"
+            onClick={toggleMenu}
+          >
+            <Briefcase />
+          </a>
+        </Button>
+        <Button size="icon">
+          <a
+            href="#getInTouch"
+            className="py-2 px-2 hover:text-white"
+            onClick={toggleMenu}
+          >
+            <Mail />
+          </a>
+        </Button>
+        <div>
+          <ModeToggle />
         </div>
+        <Button size="icon">
+          <a href="./CV - Burkay Cetinkaya.pdf"
+          target="_blank">
+          <FileDown />
+          </a>
+        </Button>
       </nav>
     </header>
   );
