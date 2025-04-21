@@ -5,8 +5,9 @@ const locationName = "Eskişehir, Türkiye";
 const encodedLocationName = encodeURIComponent(locationName);
 const mapsUrlByName = `https://www.google.com/maps/search/?api=1&query=${encodedLocationName}`;
 const finalMapsUrl = mapsUrlByName;
+const photoIntroduction = "/PhotoIntroduction.jpg";
 
-const linkedInUrl = "https://www.linkedin.com/in/burkay-çetinkaya-485558225/";
+const linkedInUrl = "https://www.linkedin.com/in/burkay-çetinkaya/";
 const gitHubUrl = "https://github.com/Rliin";
 
 const Introduction = () => {
@@ -56,7 +57,7 @@ const Introduction = () => {
         <div className="relative z-20 border-10 rounded-lg border-white dark:border-[#030712] h-[310px] w-[310px]">
           <Image
             fill={true}
-            src="/PhotoIntroduction.jpg"
+            src={photoIntroduction}
             alt="Profile"
             className="rounded-lg object-cover"
           />

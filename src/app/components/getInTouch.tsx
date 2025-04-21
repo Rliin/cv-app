@@ -1,6 +1,6 @@
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
-const linkedInUrl = "https://www.linkedin.com/in/burkay-çetinkaya-485558225/";
+const linkedInUrl = "https://www.linkedin.com/in/burkay-çetinkaya/";
 const gitHubUrl = "https://github.com/Rliin";
 
 function GetInTouch() {
@@ -12,7 +12,7 @@ function GetInTouch() {
       <div className="flex justify-center pt-5">
         <p>What&apos;s next? Feel free to reach out to me if you&apos;re looking for a developer, have a query, or simply want to connect.</p>
       </div>
-      <div className="flex flex-col gap-5 mt-15 hover-effect-utility-child">
+      <div className="flex flex-col gap-5 mt-15 hover-effect-utility-child *:w-fit *:mx-auto">
         <div className="flex flex-row gap-6 justify-center items-center">
           <Mail size={35}/>
           <a href="mailto:burkay.cetinkaya.ds@gmail.com" className="text-lg lg:text-[min(2vw,2.5rem)] dark:text-white">burkay.cetinkaya.ds@gmail.com</a>
