@@ -36,7 +36,7 @@ const Introduction = () => {
           </a>
           <a href="#getInTouch">
             <span
-              className="relative size-2 flex-none rounded-full bg-green-500 before:absolute before:size-2 before:animate-ping before:rounded-full before:bg-green-500 m-0.5"
+              className="relative size-2 flex-none rounded-full bg-green-500 before:absolute before:size-2 before:animate-ping before:rounded-full before:bg-green-500 m-2"
               color="#09BC78"
             />
             Available for opportunities
