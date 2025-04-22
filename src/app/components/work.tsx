@@ -1,14 +1,16 @@
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
+import { getTranslations } from 'next-intl/server';
 
-function Work() {
+async function Work() {
+  const t = await getTranslations("work")
   return (
     <section id="work" className=" bg-white dark:bg-[#030712] py-25 lg:px-25 xl:px-35 dark:text-gray-400">
       <div className="flex justify-center">
-        <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#E6E8EB] dark:bg-[#525A68]">Work</h1>
+        <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#E6E8EB] dark:bg-[#525A68]">{t("pageTitle")}</h1>
       </div>
       <div className="flex justify-center pt-5">
-        <p>Some of the noteworthy projects I have built:</p>
+        <p>{t("pageContent")}</p>
       </div>
 
       <div>  

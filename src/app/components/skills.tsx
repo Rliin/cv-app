@@ -1,14 +1,17 @@
 import SkillsData from "@/app/data/skillsData";
 import Image from 'next/image';
+import { getTranslations } from 'next-intl/server';
 
-function Skills () {
+
+async function Skills () {
+  const t = await getTranslations("skills");
   return (
     <div className="bg-white dark:bg-[#030712] py-25 lg:p-25 xl:p-35 dark:text-gray-400">
       <div className="flex justify-center">
-        <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#E6E8EB] dark:bg-[#525A68]">Skills</h1>
+        <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#E6E8EB] dark:bg-[#525A68]">{t("pageTitle")}</h1>
       </div>
       <div className="flex justify-center pt-5">
-        <p>The skills, tools and technologies I am really good at:</p>
+        <p>{t("pageContent")}</p>
       </div>
       <div>
         <ListSkills skillsdata={SkillsData}/>

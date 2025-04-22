@@ -1,15 +1,13 @@
-'use client'
-
 import { Github, Linkedin, MapPin } from "lucide-react";
 import Image from "next/image";
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
 const photoIntroduction = "/PhotoIntroduction.jpg";
 const linkedInUrl = "https://www.linkedin.com/in/burkay-çetinkaya/";
 const gitHubUrl = "https://github.com/Rliin";
 
-function Introduction() {
-  const t = useTranslations('introduction');
+async function Introduction() {
+  const t = await getTranslations('introduction');
   const locationName = t("location");
   const encodedLocationName = encodeURIComponent(locationName);
   const mapsUrlByName = `https://www.google.com/maps/search/?api=1&query=${encodedLocationName}`;

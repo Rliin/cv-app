@@ -1,6 +1,6 @@
 {
   "header": {
-    "about": "Über mich",
+    "about": "Über Mich",
     "work": "Projekte",
     "testimonials": "Referenzen",
     "contact": "Kontakt",
@@ -11,5 +11,51 @@
     "text": "Ich bin ein Full-Stack-Entwickler (React.js & Node.js) mit dem Fokus auf die Erstellung (und gelegentlich Gestaltung) außergewöhnlicher digitaler Erlebnisse, die schnell, zugänglich, visuell ansprechend und responsiv sind. Obwohl ich seit über 7 Jahren Webanwendungen entwickle, liebe ich es immer noch, als wäre es ganz neu für mich.",
     "location": "Eskişehir, Türkei",
     "availability": "Verfügbar für neue Möglichkeiten"
+  },
+  "aboutMe": {
+    "pageTitle": "Über mich",
+    "title": "Neugierig auf mich? Hier erfährst du mehr:",
+
+    "text1": "Ich bin ein leidenschaftlicher, autodidaktischer Designer mit Spezialisierung auf Full-Stack-Entwicklung (React.js & Node.js). Es begeistert mich, die technischen und visuellen Aspekte digitaler Produkte zum Leben zu erwecken. Benutzererfahrung, pixelgenaues Design und sauberer, gut lesbarer sowie performanter Code sind mir besonders wichtig.",
+    "text2": "Meine Reise als Webentwickler begann 2015. Seitdem habe ich mich ständig weiterentwickelt, neue Herausforderungen angenommen und die neuesten Technologien gelernt. Heute, in meinen Dreißigern und 7 Jahre nach Beginn meiner Webentwicklungskarriere, baue ich moderne Webanwendungen mit Next.js, TypeScript, Nestjs, Tailwindcss, Supabase und vielem mehr.",
+    "text3": "Ich bin ein zukunftsorientierter Denker und arbeite gerne an Produkten von der Idee bis hin zur vollständigen Entwicklung. Wenn ich nicht gerade im Entwicklermodus bin, findet man mich auf Twitter oder Indie Hackers, wo ich den Werdegang früher Startups verfolge oder einfach meine freie Zeit genieße. Folge mir gerne auf Twitter, wo ich technische Einblicke teile und öffentlich baue, oder schau bei GitHub vorbei.",
+    "text4": "Zum Schluss ein paar kurze Infos über mich:",
+
+    "li1": "Bachelor in Computer Engineering",
+    "li2": "Freiberufler in Vollzeit",
+    "li3": "Wissbegieriger Lerner",
+    "li4": "Ambitionierter Indie Hacker",
+
+    "text5": "Noch etwas zum Schluss: Ich bin für freiberufliche Projekte verfügbar. Also melde dich gerne und sag Hallo! Ich beiße nicht, versprochen 😉"
+  },
+  "skills": {
+    "pageTitle": "Fähigkeiten",
+    "pageContent": "Die Fähigkeiten, Tools und Technologien, die ich verwende:"
+  },
+  "experience": {
+    "pageTitle": "Erfahrung",
+    "pageContent": "Hier ist eine kurze Zusammenfassung meiner Erfahrungen:"
+  },
+  "work": {
+    "pageTitle": "Projekte",
+    "pageContent": "Einige bemerkenswerte Projekte, die ich umgesetzt habe:"
+  },
+  "testimonials": {
+    "pageTitle": "Referenzen",
+    "pageContent": "Nette Dinge, die Menschen über mich gesagt haben:",
+
+    "testimonialText1": "„Sehr gute Arbeit! Ich bin wirklich beeindruckt. Er ist sehr, sehr gut in dem, was er tut :) Ich kann Burkay empfehlen und werde ihn in Zukunft wieder für Frontend-Entwicklung engagieren.“",
+    "testimonialTitle1": "Gründer – xyz.com",
+
+    "testimonialText2": "„Toller Typ, absolut empfehlenswert für jede KOMPLEXE Frontend-Entwicklungsarbeit! Seine Fähigkeiten sind erstklassig und er ist eine große Bereicherung für jedes Team.“",
+    "testimonialTitle2": "Gründer – abc.com",
+
+    "testimonialText3": "„Die Zusammenarbeit mit Burkay war äußerst angenehm und einfach. Er legt wirklich Wert darauf, dass das Projekt erfolgreich ist. Burkay besitzt ein hohes Maß an Wissen und konnte problemlos an meiner MERN-Stack-Anwendung arbeiten.“",
+    "testimonialTitle3": "Freelancer"
+  },
+  "getInTouch": {
+    "pageTitle": "Kontakt aufnehmen",
+    "pageContent": "Wie geht's weiter? Du kannst dich gerne bei mir melden – ob du einen Entwickler suchst, eine Frage hast oder einfach in Kontakt treten möchtest.",
+    "text": "Du findest mich auch auf diesen Plattformen!"
   }
 }

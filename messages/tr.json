@@ -11,5 +11,51 @@
     "text": "Ben, hızlı, erişilebilir, görsel olarak çekici ve duyarlı olağanüstü dijital deneyimler oluşturma (ve zaman zaman tasarlama) odaklı bir full stack geliştiriciyim (React.js & Node.js). 7 yılı aşkın süredir web uygulamaları geliştiriyor olsam da, hala ilk günkü gibi büyük bir tutkuyla yapıyorum.",
     "location": "Eskişehir, Türkiye",
     "availability": "Yeni fırsatlara açığım"
+  },
+  "aboutMe": {
+    "pageTitle": "Hakkımda",
+    "title": "Beni merak mı ettin? İşte burada:",
+
+    "text1": "Ben, full stack geliştirme (React.js & Node.js) konusunda uzmanlaşmış, tutkulu ve kendi kendine öğrenmiş bir tasarımcıyım. Dijital ürünlerin teknik ve görsel yönlerini hayata geçirmek konusunda oldukça heyecanlıyım. Kullanıcı deneyimi, pikselle kusursuz tasarım ve okunabilir, performanslı kod yazmak benim için çok önemli.",
+    "text2": "2015 yılında web geliştirici olarak yolculuğuma başladım ve o zamandan beri kendimi sürekli geliştirip yeni teknolojileri öğrenerek ilerledim. Şimdi, otuzlu yaşlarımda ve bu yolculuğa başlayalı 7 yıl olmuşken, Next.js, TypeScript, Nestjs, Tailwindcss, Supabase ve daha birçok modern teknolojiyle yenilikçi web uygulamaları geliştiriyorum.",
+    "text3": "İleriye dönük düşünen biriyim ve fikir aşamasından geliştirmeye kadar uçtan uca ürünler üzerinde çalışmayı seviyorum. Geliştirici modunda olmadığım zamanlarda ise Twitter’da veya Indie Hackers'ta dolaşıp yeni girişimlerin yolculuklarını takip ederken ya da boş zamanımın tadını çıkarırken bulabilirsiniz beni. Twitter’da teknolojiyle ilgili paylaşımlar yapıyor ve açık şekilde geliştirme süreçlerimi paylaşıyorum. GitHub üzerinden de beni takip edebilirsiniz.",
+    "text4": "Son olarak, hakkımda birkaç kısa bilgi:",
+
+    "li1": "Bilgisayar Mühendisliği Lisans Mezunu",
+    "li2": "Tam zamanlı freelancer",
+    "li3": "Meraklı bir öğrenen",
+    "li4": "Girişimci olma hayaliyle",
+
+    "text5": "Son bir şey daha, freelance işler için müsaitim. O yüzden iletişime geçmekten çekinme! Söz veriyorum, ısırmam 😉"
+  },
+  "skills": {
+    "pageTitle": "Yetenekler",
+    "pageContent": "Kullandığım beceriler, araçlar ve teknolojiler:"
+  },
+  "experience": {
+    "pageTitle": "Deneyim",
+    "pageContent": "İşte deneyimlerimin kısa bir özeti:"
+  },
+  "work": {
+    "pageTitle": "Çalışmalar",
+    "pageContent": "Yaptığım dikkat çekici projelerden bazıları:"
+  },
+  "testimonials": {
+    "pageTitle": "Referanslar",
+    "pageContent": "Hakkımda söylenen güzel şeyler:",
+
+    "testimonialText1": "“Harika bir iş çıkardı! Gerçekten çok etkilendim. Yaptığı işte çok ama çok iyi :) Burkay’ı kesinlikle tavsiye ederim ve gelecekte Frontend geliştirme için tekrar çalışmayı düşünürüm.”",
+    "testimonialTitle1": "Kurucu - xyz.com",
+
+    "testimonialText2": "“Harika biri, karmaşık frontend işleri için kesinlikle tavsiye ederim! Becerileri üst düzeyde ve herhangi bir ekibe harika bir katkı sağlar.”",
+    "testimonialTitle2": "Kurucu - abc.com",
+
+    "testimonialText3": "“Burkay ile çalışmak son derece kolay ve keyifliydi, projeye gerçekten değer veriyor. MERN stack uygulamam üzerinde hiçbir sorun yaşamadan çalışabildi, bilgisi oldukça yüksek.”",
+    "testimonialTitle3": "Freelancer"
+  },
+  "getInTouch": {
+    "pageTitle": "İletişime Geç",
+    "pageContent": "Sırada ne var? Bir geliştirici arıyorsan, bir sorunun varsa ya da sadece tanışmak istiyorsan benimle iletişime geçmekten çekinme.",
+    "text": "Beni bu platformlarda da bulabilirsin!"
   }
 }
