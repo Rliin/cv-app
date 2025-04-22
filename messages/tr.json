@@ -1,0 +1,15 @@
+{
+  "header": {
+    "about": "Hakkımda",
+    "work": "Çalışmalar",
+    "testimonials": "Referanslar",
+    "contact": "İletişim",
+    "download-cv": "CV'yi indir"
+  },
+  "introduction": {
+    "title": "Merhaba, ben Burkay 👋",
+    "text": "Ben, hızlı, erişilebilir, görsel olarak çekici ve duyarlı olağanüstü dijital deneyimler oluşturma (ve zaman zaman tasarlama) odaklı bir full stack geliştiriciyim (React.js & Node.js). 7 yılı aşkın süredir web uygulamaları geliştiriyor olsam da, hala ilk günkü gibi büyük bir tutkuyla yapıyorum.",
+    "location": "Eskişehir, Türkiye",
+    "availability": "Yeni fırsatlara açığım"
+  }
+}

@@ -1,16 +1,21 @@
+'use client'
+
 import { Github, Linkedin, MapPin } from "lucide-react";
 import Image from "next/image";
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 
-const locationName = "Eskişehir, Türkiye";
-const encodedLocationName = encodeURIComponent(locationName);
-const mapsUrlByName = `https://www.google.com/maps/search/?api=1&query=${encodedLocationName}`;
-const finalMapsUrl = mapsUrlByName;
 const photoIntroduction = "/PhotoIntroduction.jpg";
-
 const linkedInUrl = "https://www.linkedin.com/in/burkay-çetinkaya/";
 const gitHubUrl = "https://github.com/Rliin";
 
-const Introduction = () => {
+function Introduction() {
+  const t = useTranslations('introduction');
+  const locationName = t("location");
+  const encodedLocationName = encodeURIComponent(locationName);
+  const mapsUrlByName = `https://www.google.com/maps/search/?api=1&query=${encodedLocationName}`;
+  const finalMapsUrl = mapsUrlByName;
+
   return (
     <section
       id="introduction"
@@ -19,14 +24,10 @@ const Introduction = () => {
       <div className="order-last mx-auto mt-20 lg:mt-0 text-left lg:order-first flex flex-col gap-y-15 text-wrap w-2/3">
         <div>
           <h1 className="text-5xl font-bold dark:text-white">
-            Hi, I&apos;m Burkay 👋
+            {t("title")}
           </h1>
           <p className="mt-4">
-            I&apos;m a full stack developer (React.js & Node.js) with a focus on
-            creating (and occasionally designing) exceptional digital
-            experiences that are fast, accessible, visually appealing, and
-            responsive. Even though I have been creating web applications for
-            over 7 years, I still love it as if it was something new.
+            {t("text")}
           </p>
         </div>
         <div className="**:flex **:flex-row *:gap-2 w-fit *:my-2 hover-effect-utility-child *:items-center">
@@ -39,14 +40,14 @@ const Introduction = () => {
               className="relative size-2 flex-none rounded-full bg-green-500 before:absolute before:size-2 before:animate-ping before:rounded-full before:bg-green-500 m-2"
               color="#09BC78"
             />
-            Available for opportunities
+            {t("availability")}
           </a>
         </div>
         <div className="flex flex-row gap-4 hover-effect-utility-child">
           <a href={gitHubUrl} target="_blank">
             <Github />
           </a>
-          <a href={linkedInUrl} target="_blank">
+          <a href={linkedInUrl} target="_blank" title="LinkedIn">
             <Linkedin />
           </a>
         </div>

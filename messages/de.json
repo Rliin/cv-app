@@ -1,0 +1,15 @@
+{
+  "header": {
+    "about": "Über mich",
+    "work": "Projekte",
+    "testimonials": "Referenzen",
+    "contact": "Kontakt",
+    "download-cv": "Lebenslauf herunterladen"
+  },
+  "introduction": {
+    "title": "Hallo, ich bin Burkay 👋",
+    "text": "Ich bin ein Full-Stack-Entwickler (React.js & Node.js) mit dem Fokus auf die Erstellung (und gelegentlich Gestaltung) außergewöhnlicher digitaler Erlebnisse, die schnell, zugänglich, visuell ansprechend und responsiv sind. Obwohl ich seit über 7 Jahren Webanwendungen entwickle, liebe ich es immer noch, als wäre es ganz neu für mich.",
+    "location": "Eskişehir, Türkei",
+    "availability": "Verfügbar für neue Möglichkeiten"
+  }
+}

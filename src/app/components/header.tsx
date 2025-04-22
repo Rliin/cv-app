@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+/* import Link from "next/link"; */
 import { useState } from "react";
 import {
   Menu,
@@ -13,8 +13,13 @@ import {
 import { ModeToggle } from "./modeToggle";
 import { Button } from "@/components/ui/button";
 
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const t = useTranslations('header');
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -37,10 +42,10 @@ const Header = () => {
 
       {/* Navigation - Desktop */}
       <nav className="hidden md:flex items-center justify-end bg-white dark:bg-[#030712] gap-5 p-5 text-sm dark:text-gray-400 *:rounded-lg [&>a]:hover:scale-105 dark:[&>a]:hover:text-white [&>a]:transition-all [&>a]:duration-400">
-        <a href="#aboutMe">About</a>
-        <a href="#work">Work</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#getInTouch">Contact</a>
+        <a href="#aboutMe">{t("about")}</a>
+        <a href="#work">{t("work")}</a>
+        <a href="#testimonials">{t("testimonials")}</a>
+        <a href="#getInTouch">{t("contact")}</a>
         <div className="self-center w-px h-5.5 bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25"></div>
         <ModeToggle/>
         <Link
@@ -48,7 +53,7 @@ const Header = () => {
           href="./CV - Burkay Cetinkaya.pdf"
           target="_blank"
         >
-          Download CV
+          {t("download-cv")}
         </Link>
       </nav>
 
