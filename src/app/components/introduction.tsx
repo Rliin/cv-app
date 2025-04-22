@@ -3,7 +3,6 @@
 import { Github, Linkedin, MapPin } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
 
 const photoIntroduction = "/PhotoIntroduction.jpg";
 const linkedInUrl = "https://www.linkedin.com/in/burkay-çetinkaya/";
