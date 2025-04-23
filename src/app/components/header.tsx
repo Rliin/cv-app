@@ -15,6 +15,7 @@ import { Button } from "@/components/ui/button";
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import LanguageSwitcher from "./languageSwitcher";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,9 +29,9 @@ const Header = () => {
   return (
     <header className="z-50 fixed top-0 right-0 left-0 flex flex-wrap justify-around items-center bg-white dark:bg-[#030712] shadow-[0px_4px_6px_0px_030712]">
       <div className="flex justify-around items-center w-full px-4 py-3 md:w-auto md:px-6">
-        <a href="#introduction" className="flex items-center text-lg font-bold">
+        {/* <a href="#introduction" className="flex items-center text-lg font-bold">
           {"<BC />"}
-        </a>
+        </a> */}
 
         <Button size="icon"
           className="fixed bottom-10 right-10 z-60 p-2  md:hidden focus:outline-none"
@@ -48,6 +49,7 @@ const Header = () => {
         <a href="#getInTouch">{t("contact")}</a>
         <div className="self-center w-px h-5.5 bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25"></div>
         <ModeToggle/>
+        <LanguageSwitcher/>
         <Link
           className="bg-black text-white dark:bg-white dark:text-black px-4.5 py-1.5 hover:bg-slate-400 dark:hover:bg-slate-800 transition duration-400 hover:text-black dark:hover:text-white"
           href="./CV - Burkay Cetinkaya.pdf"

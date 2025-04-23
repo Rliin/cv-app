@@ -1,4 +1,7 @@
 {
+  "localization": {
+    "currentLanguage": "EN"
+  },
   "header": {
     "about": "About",
     "work": "Work",

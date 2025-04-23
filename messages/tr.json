@@ -1,4 +1,7 @@
 {
+  "localization": {
+    "currentLanguage": "TR"
+  },
   "header": {
     "about": "Hakkımda",
     "work": "Çalışmalar",

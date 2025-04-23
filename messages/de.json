@@ -1,10 +1,13 @@
 {
+  "localization": {
+    "currentLanguage": "DE"
+  },
   "header": {
     "about": "Über Mich",
     "work": "Projekte",
     "testimonials": "Referenzen",
     "contact": "Kontakt",
-    "download-cv": "Lebenslauf herunterladen"
+    "download-cv": "Lebenslauf"
   },
   "introduction": {
     "title": "Hallo, ich bin Burkay 👋",
