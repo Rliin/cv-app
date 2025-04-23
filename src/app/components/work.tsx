@@ -19,25 +19,25 @@ async function Work() {
         <div className="flex bg-[#FAFAFC] dark:bg-[#374151] rounded-t-lg lg:rounded-l-lg items-center justify-center">
           <Image
             className="rounded-lg m-12"
-            src="/ProjectPicture.png"
+            src="/GoletPicture.png"
             alt="Golet Project"
             width={650}
             height={650}
           />
         </div>
         <div className="bg-white dark:bg-[#1F2937] rounded-b-lg lg:rounded-r-lg p-5 lg:p-15 *:mb-5">
-          <h1 className="dark:text-white text-xl">Fiskil</h1>
+          <h1 className="dark:text-white text-xl">Golet Web and Mobile E-commerce site</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <ul className="*:px-7 *:py-1 *:mr-2 *:my-1 *:bg-[#E6E8EA] dark:*:bg-[#374151] *:rounded-full flex flex-wrap font-bold">
             <li>React</li>
-            <li>Next.js</li>
-            <li>Typescript</li>
-            <li>Nest.js</li>
-            <li>PostgreSQL</li>
-            <li>Tailwindcss</li>
-            <li>Figma</li>
-            <li>Cypress</li>
-            <li>Storybook</li>
+            <li>Javascript</li>
+            <li>Firebase</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Expo</li>
+            <li>Java</li>
+            <li>React Native</li>
+            <li>Github</li>
             <li>Git</li>
           </ul>
           <div className="w-fit hover-effect-utility-child">
@@ -51,19 +51,12 @@ async function Work() {
       </div>
       <div className="work-item-utility hover:scale-101 transition-transform duration-400 ease-in-out">
         <div className="order-last lg:order-first bg-white dark:bg-[#1F2937] rounded-b-lg lg:rounded-l-lg p-5 lg:p-15 *:mb-5">
-          <h1 className="dark:text-white text-xl">Fiskil</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <h1 className="dark:text-white text-xl">Treausure Wizard</h1>
+          <p>Mobile roguelike video game inspired by Vampire Survivors.</p>
           <ul className="*:px-7 *:py-1 *:mr-2 *:my-1 *:bg-[#E6E8EA] dark:*:bg-[#374151] *:rounded-full flex flex-wrap font-bold">
-            <li>React</li>
-            <li>Next.js</li>
-            <li>Typescript</li>
-            <li>Nest.js</li>
-            <li>PostgreSQL</li>
-            <li>Tailwindcss</li>
-            <li>Figma</li>
-            <li>Cypress</li>
-            <li>Storybook</li>
-            <li>Git</li>
+            <li>Unity</li>
+            <li>C#</li>
+            <li>Android</li>
           </ul>
           <div className="w-fit hover-effect-utility-child">
             <a
@@ -76,8 +69,8 @@ async function Work() {
         <div className="order-first lg:order-last flex bg-[#FAFAFC] dark:bg-[#374151] rounded-t-lg lg:rounded-r-lg items-center justify-center">
           <Image
             className="rounded-lg m-12"
-            src="/ProjectPicture.png"
-            alt="Golet Project"
+            src="/TWPicture.png"
+            alt="Treausure Wizard Project"
             width={650}
             height={650}
           />
