@@ -14,7 +14,7 @@ async function Experience() {
       <div className="flex justify-center pt-5">
         <p>{t("pageContent")}</p>
       </div>
-      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)]">
+      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] hover:scale-101 transition-transform duration-400 ease-in-out">
         <div className="order-1">
           <Image
             src={upworkLogoSrc}
@@ -33,7 +33,7 @@ async function Experience() {
         </div>
         <div className=" order-2 lg:order-3 whitespace-nowrap">Nov 2021 - Present</div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)]">
+      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] hover:scale-101 transition-transform duration-400 ease-in-out">
         <div className="order-1">
           <Image
             src={upworkLogoSrc}
@@ -52,7 +52,7 @@ async function Experience() {
         </div>
         <div className=" order-2 lg:order-3 whitespace-nowrap">Nov 2021 - Present</div>
       </div>
-      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)]">
+      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] hover:scale-101 transition-transform duration-400 ease-in-out">
         <div className="order-1">
           <Image
             src={upworkLogoSrc}

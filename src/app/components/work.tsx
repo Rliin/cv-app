@@ -15,7 +15,7 @@ async function Work() {
       </div>
 
       <div>  
-      <div className="work-item-utility">
+      <div className="work-item-utility hover:scale-101 transition-transform duration-400 ease-in-out">
         <div className="flex bg-[#FAFAFC] dark:bg-[#374151] rounded-t-lg lg:rounded-l-lg items-center justify-center">
           <Image
             className="rounded-lg m-12"
@@ -49,7 +49,7 @@ async function Work() {
           </div>
         </div>
       </div>
-      <div className="work-item-utility">
+      <div className="work-item-utility hover:scale-101 transition-transform duration-400 ease-in-out">
         <div className="order-last lg:order-first bg-white dark:bg-[#1F2937] rounded-b-lg lg:rounded-l-lg p-5 lg:p-15 *:mb-5">
           <h1 className="dark:text-white text-xl">Fiskil</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -84,7 +84,7 @@ async function Work() {
         </div>
 
       </div>
-      <div className="work-item-utility">
+      <div className="work-item-utility hover:scale-101 transition-transform duration-400 ease-in-out">
         <div className="flex bg-[#FAFAFC] dark:bg-[#374151] rounded-t-lg lg:rounded-l-lg items-center justify-center">
           <Image
             className="rounded-lg m-12"
