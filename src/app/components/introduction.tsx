@@ -1,13 +1,14 @@
 import { Github, Linkedin, MapPin } from "lucide-react";
 import Image from "next/image";
-import { getTranslations } from 'next-intl/server';
+import { getTranslations } from "next-intl/server";
+import { Wave2 } from "./waveSvg";
 
 const photoIntroduction = "/PhotoIntroduction.jpg";
 const linkedInUrl = "https://www.linkedin.com/in/burkay-çetinkaya/";
 const gitHubUrl = "https://github.com/Rliin";
 
 async function Introduction() {
-  const t = await getTranslations('introduction');
+  const t = await getTranslations("introduction");
   const locationName = t("location");
   const encodedLocationName = encodeURIComponent(locationName);
   const mapsUrlByName = `https://www.google.com/maps/search/?api=1&query=${encodedLocationName}`;
@@ -16,16 +17,12 @@ async function Introduction() {
   return (
     <section
       id="introduction"
-      className="flex flex-col lg:flex-row justify-around gap-4 lg:p-25 xl:p-35 py-20 bg-white dark:bg-[#030712] dark:text-gray-400"
+      className="relative flex flex-col lg:flex-row justify-around gap-4 lg:p-25 xl:p-35 py-20 bg-(--first-color) dark:text-gray-400"
     >
       <div className="order-last mx-auto mt-20 lg:mt-0 text-left lg:order-first flex flex-col gap-y-15 text-wrap w-2/3">
         <div>
-          <h1 className="text-5xl font-bold dark:text-white">
-            {t("title")}
-          </h1>
-          <p className="mt-4">
-            {t("text")}
-          </p>
+          <h1 className="text-5xl font-bold dark:text-white">{t("title")}</h1>
+          <p className="mt-4">{t("text")}</p>
         </div>
         <div className="**:flex **:flex-row *:gap-2 w-fit *:my-2 hover-effect-utility-child *:items-center">
           <a href={finalMapsUrl} target="_blank">
@@ -61,8 +58,10 @@ async function Introduction() {
           />
         </div>
       </div>
+      {/* <WaveOpacity color="second-color"/> */}
+      <Wave2/>
     </section>
   );
-};
+}
 
 export default Introduction;

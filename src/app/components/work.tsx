@@ -1,11 +1,12 @@
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
 import { getTranslations } from 'next-intl/server';
+import { Wave2 } from "./waveSvg";
 
 async function Work() {
   const t = await getTranslations("work")
   return (
-    <section id="work" className=" bg-white dark:bg-[#030712] py-25 lg:px-25 xl:px-35 dark:text-gray-400">
+    <section id="work" className="relative bg-(--first-color) py-25 lg:px-25 xl:px-35 dark:text-gray-400">
       <div className="flex justify-center">
         <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#E6E8EB] dark:bg-[#525A68]">{t("pageTitle")}</h1>
       </div>
@@ -118,6 +119,7 @@ async function Work() {
         </div>
       </div>
       </div>
+      <Wave2/>
     </section>
   )
 }

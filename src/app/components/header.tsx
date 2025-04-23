@@ -27,7 +27,7 @@ const Header = () => {
   };
 
   return (
-    <header className="z-50 fixed top-0 right-0 left-0 flex flex-wrap justify-around items-center bg-white dark:bg-[#030712] shadow-[0px_4px_6px_0px_030712]">
+    <header className="z-50 fixed top-0 right-0 left-0 flex flex-wrap justify-around items-center bg-(--first-color) shadow-[0px_4px_6px_0px_030712]">
       <div className="flex justify-around items-center w-full px-4 py-3 md:w-auto md:px-6">
         {/* <a href="#introduction" className="flex items-center text-lg font-bold">
           {"<BC />"}
@@ -42,7 +42,7 @@ const Header = () => {
       </div>
 
       {/* Navigation - Desktop */}
-      <nav className="hidden md:flex items-center justify-end bg-white dark:bg-[#030712] gap-5 p-5 text-sm dark:text-gray-400 *:rounded-lg [&>a]:hover:scale-105 dark:[&>a]:hover:text-white [&>a]:transition-all [&>a]:duration-400">
+      <nav className="hidden md:flex items-center justify-end bg-(--first-color) gap-5 p-5 text-sm dark:text-gray-400 *:rounded-lg [&>a]:hover:scale-105 dark:[&>a]:hover:text-white [&>a]:transition-all [&>a]:duration-400">
         <a href="#aboutMe">{t("about")}</a>
         <a href="#work">{t("work")}</a>
         <a href="#testimonials">{t("testimonials")}</a>

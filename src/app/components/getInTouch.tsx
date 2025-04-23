@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { getTranslations } from 'next-intl/server';
+import { Wave2 } from "./waveSvg";
 
 const linkedInUrl = "https://www.linkedin.com/in/burkay-çetinkaya/";
 const gitHubUrl = "https://github.com/Rliin";
@@ -7,7 +8,7 @@ const gitHubUrl = "https://github.com/Rliin";
 async function GetInTouch() {
   const t = await getTranslations('getInTouch')
   return (
-    <section id="getInTouch" className="bg-white dark:bg-[#030712] py-25 px-10 lg:px-25 xl:px-35 dark:text-gray-400">
+    <section id="getInTouch" className="relative bg-(--first-color) py-25 px-10 lg:px-25 xl:px-35 dark:text-gray-400">
       <div className="flex justify-center">
         <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#E6E8EB] dark:bg-[#525A68]">{t("pageTitle")}</h1>
       </div>
@@ -30,6 +31,7 @@ async function GetInTouch() {
           <a href={linkedInUrl} target="_blank"><Linkedin /></a>
           </div>
         </div>
+        <Wave2/>
     </section>
   )
 }

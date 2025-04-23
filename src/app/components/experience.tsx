@@ -1,12 +1,13 @@
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
+import { Wave1 } from "./waveSvg";
 
 const upworkLogoSrc = "/upwork-svgrepo-com.svg"
 
 async function Experience() {
   const t = await getTranslations("experience")
   return (
-    <section className="bg-[#FBFAFC] dark:bg-[#111827] py-25 lg:px-25 xl:px-35 dark:text-gray-400">
+    <section className="relative bg-(--second-color) py-25 lg:px-25 xl:px-35 dark:text-gray-400">
       <div className="flex justify-center">
         <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#E6E8EB] dark:bg-[#525A68]">{t("pageTitle")}</h1>
       </div>
@@ -70,6 +71,7 @@ async function Experience() {
         </div>
         <div className=" order-2 lg:order-3 whitespace-nowrap">Nov 2021 - Present</div>
       </div>
+      <Wave1/>
     </section>
   )
 }

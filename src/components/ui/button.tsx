@@ -22,7 +22,7 @@ const buttonVariants = cva(
         link: 
         "text-primary underline-offset-4 hover:underline",
         BCustom:
-          "bg-[#030712] dark:bg-white dark:md:bg-[#030712] md:bg-white text-white dark:text-black dark:md:text-gray-400 md:text-black hover:scale-110 dark:hover:text-white transition-all duration-400",
+          "bg-[#030712] dark:bg-white dark:md:bg-[#030712] md:bg-white text-white dark:text-black dark:md:text-gray-400 md:text-black hover:scale-110 dark:hover:text-white transition-all duration-400 cursor-pointer",
 
       },
       size: {
