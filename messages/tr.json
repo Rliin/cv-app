@@ -47,14 +47,20 @@
     "pageTitle": "Referanslar",
     "pageContent": "Hakkımda söylenen güzel şeyler:",
 
-    "testimonialText1": "“Harika bir iş çıkardı! Gerçekten çok etkilendim. Yaptığı işte çok ama çok iyi :) Burkay’ı kesinlikle tavsiye ederim ve gelecekte Frontend geliştirme için tekrar çalışmayı düşünürüm.”",
-    "testimonialTitle1": "Kurucu - xyz.com",
+    "testimonialText1": "“Kendi öğrenme motivasyonu yüksek, çözüm odaklı ve iletişimi güçlü bir birey olarak gelecekte yazılım alanında başarılı işlere imza atacağına inanıyorum. Kendisiyle çalışmaktan memnuniyet duydum ve kariyerinde başarılar diliyorum.”",
+    "testimonialPerson1": "Hamza Barış Doğan",
+    "testimonialTitle1": "Kıdemli Mühendis - IOTech",
+    "testimonialLink1": "https://www.linkedin.com/in/hamza-barış-doğan-410922165/",
 
     "testimonialText2": "“Harika biri, karmaşık frontend işleri için kesinlikle tavsiye ederim! Becerileri üst düzeyde ve herhangi bir ekibe harika bir katkı sağlar.”",
-    "testimonialTitle2": "Kurucu - abc.com",
+    "testimonialPerson2": "Burak Kılıç",
+    "testimonialTitle2": "Frontend Yazılım Geliştirici - IOTech",
+    "testimonialLink2": "https://www.linkedin.com/in/burakkilic2/",
 
     "testimonialText3": "“Burkay ile çalışmak son derece kolay ve keyifliydi, projeye gerçekten değer veriyor. MERN stack uygulamam üzerinde hiçbir sorun yaşamadan çalışabildi, bilgisi oldukça yüksek.”",
-    "testimonialTitle3": "Freelancer"
+    "testimonialPerson3": "John Doe",
+    "testimonialTitle3": "Freelancer",
+    "testimomialLink3": " "
   },
   "getInTouch": {
     "pageTitle": "İletişime Geç",

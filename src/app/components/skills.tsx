@@ -12,7 +12,7 @@ async function Skills() {
           {t("pageTitle")}
         </h1>
       </div>
-      <div className="flex justify-center pt-5">
+      <div className="flex justify-center pt-5 px-5 text-pretty">
         <p>{t("pageContent")}</p>
       </div>
       <div>

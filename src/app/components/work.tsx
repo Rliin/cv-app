@@ -10,7 +10,7 @@ async function Work() {
       <div className="flex justify-center">
         <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#E6E8EB] dark:bg-[#525A68]">{t("pageTitle")}</h1>
       </div>
-      <div className="flex justify-center pt-5">
+      <div className="flex justify-center pt-5 px-5 text-pretty">
         <p>{t("pageContent")}</p>
       </div>
 

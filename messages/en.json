@@ -48,13 +48,19 @@
     "pageContent": "Nice things people have said about me:",
 
     "testimonialText1": "“Job well done! I am really impressed. He is very very good at what he does:) I would recommend Burkay and will rehire in the future for Frontend development.”",
+    "testimonialPerson1": "John Doe",
     "testimonialTitle1": "Founder - xyz.com",
+    "testimonialLink1": "https://www.linkedin.com/in/hamza-barış-doğan-410922165/",
 
     "testimonialText2": "“Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.”",
-    "testimonialTitle2": "Founder - abc.com",
+    "testimonialPerson2": "Burak Kılıç",
+    "testimonialTitle2": "Frontend Developer - IOTech",
+    "testimonialLink2": "https://www.linkedin.com/in/burakkilic2/",
 
     "testimonialText3": "“Burkay was extremely easy and pleasant to work with and he truly cares about the project being a success. Burkay has a high level of knowledge and was able to work on my MERN stack application without any issues.”",
-    "testimonialTitle3": "Freelancer"
+    "testimonialPerson3": "John Doe",
+    "testimonialTitle3": "Freelancer",
+    "testimonialLink3": " "
   },
   "getInTouch": {
     "pageTitle": "Get in touch",
