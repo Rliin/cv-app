@@ -47,9 +47,9 @@
     "pageTitle": "Testimonials",
     "pageContent": "Nice things people have said about me:",
 
-    "testimonialText1": "“Job well done! I am really impressed. He is very very good at what he does:) I would recommend Burkay and will rehire in the future for Frontend development.”",
-    "testimonialPerson1": "John Doe",
-    "testimonialTitle1": "Founder - xyz.com",
+    "testimonialText1": "“As a self-motivated, solution-oriented individual with strong communication skills, I believe they will achieve great success in the field of software in the future. It was a pleasure working with them, and I wish them success in their career”",
+    "testimonialPerson1": "Hamza Barış Doğan",
+    "testimonialTitle1": "Senior Engineer - IOTech",
     "testimonialLink1": "https://www.linkedin.com/in/hamza-barış-doğan-410922165/",
 
     "testimonialText2": "“Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.”",
@@ -66,5 +66,8 @@
     "pageTitle": "Get in touch",
     "pageContent": "What's next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.",
     "text": "You may also find me on these platforms!"
+  },
+  "footer": {
+    "footerText": "This site was developed by Burkay"
   }
 }

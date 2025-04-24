@@ -47,9 +47,9 @@
     "pageTitle": "Referenzen",
     "pageContent": "Nette Dinge, die Menschen über mich gesagt haben:",
 
-    "testimonialText1": "„Sehr gute Arbeit! Ich bin wirklich beeindruckt. Er ist sehr, sehr gut in dem, was er tut :) Ich kann Burkay empfehlen und werde ihn in Zukunft wieder für Frontend-Entwicklung engagieren.“",
-    "testimonialPerson1": "John Doe",
-    "testimonialTitle1": "Gründer – xyz.com",
+    "testimonialText1": "„Als eine selbstmotivierte, lösungsorientierte Person mit ausgeprägten Kommunikationsfähigkeiten bin ich überzeugt, dass sie in Zukunft große Erfolge im Softwarebereich erzielen wird. Die Zusammenarbeit mit ihr war eine Freude, und ich wünsche ihr viel Erfolg für ihre weitere Karriere.“",
+    "testimonialPerson1": "Hamza Barış Doğan",
+    "testimonialTitle1": "Senioringenieur - IOTech",
     "testimonialLink1": "https://www.linkedin.com/in/hamza-barış-doğan-410922165/",
 
     "testimonialText2": "„Toller Typ, absolut empfehlenswert für jede KOMPLEXE Frontend-Entwicklungsarbeit! Seine Fähigkeiten sind erstklassig und er ist eine große Bereicherung für jedes Team.“",
@@ -66,5 +66,8 @@
     "pageTitle": "Kontakt aufnehmen",
     "pageContent": "Wie geht's weiter? Du kannst dich gerne bei mir melden – ob du einen Entwickler suchst, eine Frage hast oder einfach in Kontakt treten möchtest.",
     "text": "Du findest mich auch auf diesen Plattformen!"
+  },
+  "footer": {
+    "footerText": "Diese Website wurde von Burkay entwickelt"
   }
 }

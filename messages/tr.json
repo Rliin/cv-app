@@ -66,5 +66,8 @@
     "pageTitle": "İletişime Geç",
     "pageContent": "Sırada ne var? Bir geliştirici arıyorsan, bir sorunun varsa ya da sadece tanışmak istiyorsan benimle iletişime geçmekten çekinme.",
     "text": "Beni bu platformlarda da bulabilirsin!"
+  },
+  "footer": {
+    "footerText": "Bu site Burkay tarafından geliştirildi"
   }
 }

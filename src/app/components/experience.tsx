@@ -1,10 +1,23 @@
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 import { Wave1 } from "./waveSvg";
+import ExperienceData from "@/app/data/experienceData";
 
-const redgiantLogoSrc = "/experience-logos/redgiantLogo.jpg"
-const devnetLogoSrc = "/experience-logos/devnetLogo.jpg"
-const iotechLogoSrc = "/experience-logos/iotechLogo.jpg"
+interface BulletPointType {
+  li: string;
+}
+
+interface ExperienceItem {
+  image: {
+    src: string,
+    alt: string
+  },
+  title: string,
+  bulletPointContent: BulletPointType[],
+  dates: string,
+}
+
+type ExperienceDataType = ExperienceItem[];
 
 async function Experience() {
   const t = await getTranslations("experience")
@@ -16,74 +29,39 @@ async function Experience() {
       <div className="flex justify-center pt-5 px-5 text-pretty">
         <p>{t("pageContent")}</p>
       </div>
-      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] hover:scale-101 transition-transform duration-400 ease-in-out">
-        <div className="order-1">
-          <Image
-            src={iotechLogoSrc}
-            alt="iotech logo"
-            width={68}
-            height={68} 
-            className="rounded-2xl"/>
-        </div>
-        <div className="order-3 lg:order-2 lg:px-20">
-          <h1 className="dark:text-white text-black text-xl pb-3">Frontend Developer</h1>
-          <ul className="list-disc list-inside">
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
-            <li>Ut enim ad minim veniam</li>
-            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-            <li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-          </ul>
-        </div>
-        <div className=" order-2 lg:order-3 whitespace-nowrap">Feb 2025 - Present</div>
-      </div>
-      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] hover:scale-101 transition-transform duration-400 ease-in-out">
-        <div className="order-1">
-          <Image
-            src={devnetLogoSrc}
-            alt="devnet logo"
-            width={68}
-            height={68} 
-            className="rounded-2xl"/>
-        </div>
-        <div className="order-3 lg:order-2 lg:px-20">
-          <h1 className="dark:text-white text-black text-xl pb-3">Game Developer Intern</h1>
-          <ul className="list-disc list-inside">
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
-            <li>Ut enim ad minim veniam</li>
-            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-            <li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-          </ul>
-        </div>
-        <div className=" order-2 lg:order-3 whitespace-nowrap">Jul 2024 - Sep 2024</div>
-      </div>
-      <div className="flex lg:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] hover:scale-101 transition-transform duration-400 ease-in-out">
-        <div className="order-1">
-          <Image
-            src={redgiantLogoSrc}
-            alt="red giant rover logo"
-            width={68}
-            height={68} 
-            className="rounded-2xl"/>
-        </div>
-        <div className="order-3 lg:order-2 lg:px-20">
-          <h1 className="text-black dark:text-white text-xl pb-3">Marketing and Sponsorship Coordinator</h1>
-          <ul className="list-disc list-inside">
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</li>
-            <li>Ut enim ad minim veniam</li>
-            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-            <li>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-          </ul>
-        </div>
-        <div className=" order-2 lg:order-3 whitespace-nowrap">Feb 2021 - Sep 2023</div>
-      </div>
+      <ListExperience experiencedata={ExperienceData} />
       <Wave1/>
     </section>
   )
 }
 
-/* function ListExperience () {
+function ListExperience (props: {
+  experiencedata: ExperienceDataType;
+}) {
   return (
-    <></>
+    <div>
+    {props.experiencedata.map((experience : ExperienceItem , index: number) => (
+    <div key={index} className="flex xl:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] hover:scale-101 transition-transform duration-400 ease-in-out">
+    <div className="order-1">
+      <Image
+        src={experience.image.src}
+        alt={experience.image.alt}
+        width={68}
+        height={68} 
+        className="rounded-2xl w-fit"/>
+    </div>
+    <div className="order-3 xl:order-2 xl:px-10">
+      <h1 className="dark:text-white text-black text-xl pb-3">{experience.title}</h1>
+      <ul className="list-disc list-outside">
+        {experience.bulletPointContent.map((bullet, bulletIndex) => (
+          <li key={bulletIndex} className="mb-1">{bullet.li}</li>
+        ))}
+      </ul>
+    </div>
+    <div className=" order-2 xl:order-3 whitespace-nowrap">{experience.dates}</div>
+  </div>
+    ))}
+  </div>
   )
-} */
+}
 export default Experience;

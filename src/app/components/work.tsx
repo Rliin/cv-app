@@ -81,7 +81,7 @@ async function Work() {
         <div className="flex bg-[#FAFAFC] dark:bg-[#374151] rounded-t-lg lg:rounded-l-lg items-center justify-center">
           <Image
             className="rounded-lg m-12"
-            src="/ProjectPicture.png"
+            src="/GoletPicture.png"
             alt="Golet Project"
             width={650}
             height={650}
