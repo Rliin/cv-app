@@ -1,7 +1,7 @@
 import { Github, Linkedin, MapPin } from "lucide-react";
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
-import { Wave, Wave2, WaveOpacity } from "./waveSvg";
+import { WaveOpacity } from "./waveSvg";
 
 const photoIntroduction = "/PhotoIntroduction.jpg";
 const linkedInUrl = "https://www.linkedin.com/in/burkay-çetinkaya/";
