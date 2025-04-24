@@ -37,11 +37,11 @@ const LanguageSwitcher = () => {
       <DropdownMenuTrigger asChild>
         <Button variant="BCustom" size="BCustomSize">{position}</Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-26 mt-2">
+      <DropdownMenuContent className="w-30 mt-2 mb-15">
         <DropdownMenuRadioGroup value={position} onValueChange={handleValueChange}>
           <DropdownMenuRadioItem value="EN">English</DropdownMenuRadioItem>
           <DropdownMenuRadioItem value="TR">Türkçe</DropdownMenuRadioItem>
-          <DropdownMenuRadioItem value="DE">Deutsch</DropdownMenuRadioItem>
+          <DropdownMenuRadioItem value="DE">Deutsch 🛠️</DropdownMenuRadioItem>
         </DropdownMenuRadioGroup>
       </DropdownMenuContent>
     </DropdownMenu>

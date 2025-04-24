@@ -2,13 +2,23 @@
 
 /* import Link from "next/link"; */
 import { useState } from "react";
-import { Menu, X, User, Briefcase, Mail, FileDown } from "lucide-react";
+import {
+  Menu,
+  X,
+  User,
+  Briefcase,
+  Mail,
+  FileDown,
+  MessageCircleHeart,
+} from "lucide-react";
 import { ModeToggle } from "./modeToggle";
 import { Button } from "@/components/ui/button";
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import LanguageSwitcher from "./languageSwitcher";
+
+const cv = "./Burkay Çetinkaya.pdf";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,7 +55,7 @@ const Header = () => {
         <LanguageSwitcher />
         <Link
           className="bg-black text-white dark:bg-white dark:text-black px-4.5 py-1.5 hover:bg-slate-400 dark:hover:bg-slate-800 transition duration-400 hover:text-black dark:hover:text-white"
-          href="./Burkay Çetinkaya.pdf"
+          href={cv}
           target="_blank"
         >
           {t("download-cv")}
@@ -55,7 +65,7 @@ const Header = () => {
       {/* Navigation - Mobile */}
       <nav
         className={`${isMenuOpen ? "flex" : "hidden"}
-      fixed bottom-5 right-5 grid grid-cols-3 bg-[#FBFAFC] dark:bg-gray-950 text-sm dark:text-gray-400 gap-4 md:hidden *:flex *:justify-center *:items-center rounded-2xl p-5
+      fixed bottom-5 right-5 grid grid-cols-4 bg-[#FBFAFC] dark:bg-gray-950 text-sm dark:text-gray-400 gap-4 md:hidden *:flex *:justify-center *:items-center rounded-2xl p-5
       `}
       >
         <Button size="icon">
@@ -78,6 +88,15 @@ const Header = () => {
         </Button>
         <Button size="icon">
           <a
+            href="#testimonials"
+            className="py-2 px-2 hover:text-white"
+            onClick={toggleMenu}
+          >
+            <MessageCircleHeart />
+          </a>
+        </Button>
+        <Button size="icon">
+          <a
             href="#getInTouch"
             className="py-2 px-2 hover:text-white"
             onClick={toggleMenu}
@@ -88,8 +107,17 @@ const Header = () => {
         <div>
           <ModeToggle />
         </div>
+        <div>
+          <LanguageSwitcher />
+        </div>
+
         <Button size="icon">
-          <a href="./CV - Burkay Cetinkaya.pdf" target="_blank">
+          <a
+            href={cv}
+            target="_blank"
+            className="py-2 px-2 hover:text-white"
+            onClick={toggleMenu}
+          >
             <FileDown />
           </a>
         </Button>
