@@ -66,7 +66,16 @@
   },
   "work": {
     "pageTitle": "Çalışmalar",
-    "pageContent": "Yaptığım dikkat çekici projelerden bazıları:"
+    "pageContent": "Yaptığım dikkat çekici projelerden bazıları:",
+
+    "workTitle1": "Golet Web ve Mobil E-Ticaret Platformu",
+    "workText1": "Mezuniyet projesi olarak, React ve Kotlin kullanarak hem web hem de mobil uyumlu, Firebase tabanlı bir e-ticaret platformunun geliştirilmesine katkı sağladım. Bu platform, Amazon ve Letgo'nun öğelerini birleştiriyor.",
+
+    "workTitle2": "Web SCADA Bileşen Görselleştirme",
+    "workText2": "Masaüstü SCADA yazılımından alınan genel bileşen bilgi dosyaları ile SignalR üzerinden sunucudan gelen gerçek zamanlı verileri düzenleyip kullanılabilir hâle getirdikten sonra birleştiren ve bunları uygun şekilde görselleştiren bir web SCADA modülü geliştirdim.",
+
+    "workTitle3": "Unity ile Oyun Geliştirme",
+    "workText3": "Unity ve C# kullanarak Android platformları için Roguelike Shooter ve Hypercasual gibi türlerde oyunlar geliştirdim. Bunlardan biri, Vampire Survivors'tan esinlenen Treasure Wizard oyunudur."
   },
   "testimonials": {
     "pageTitle": "Referanslar",

@@ -38,7 +38,7 @@
   "experience": {
     "pageTitle": "Erfahrung",
     "pageContent": "Hier ist eine kurze Zusammenfassung meiner Erfahrungen:",
-    
+
     "iotech title": "Frontend-Entwickler",
     "iotech organization": "IOTech Software",
     "iotech li1": "Ich habe Module zur Komponentenvisualisierung für eine weit verbreitete Web-SCADA-Software entwickelt.",
@@ -66,7 +66,16 @@
   },
   "work": {
     "pageTitle": "Projekte",
-    "pageContent": "Einige bemerkenswerte Projekte, die ich umgesetzt habe:"
+    "pageContent": "Einige bemerkenswerte Projekte, die ich umgesetzt habe:",
+
+    "workTitle1": "Golet Web- und Mobile E-Commerce-Plattform",
+    "workText1": "Als Abschlussprojekt habe ich zur Entwicklung einer auf Firebase basierenden E-Commerce-Plattform beigetragen, die sowohl mit Web als auch mit mobilen Geräten kompatibel ist und mit React und Kotlin umgesetzt wurde. Diese Plattform vereint Elemente von Amazon und Letgo.",
+
+    "workTitle2": "Web-SCADA-Komponentenvisualisierung",
+    "workText2": "Ich habe ein Web-SCADA-Modul entwickelt, das die allgemeinen Komponentendateien aus der Desktop-SCADA-Software mit den über SignalR vom Server empfangenen Echtzeitdaten zusammenführt, aufbereitet und entsprechend visualisiert.",
+
+    "workTitle3": "Spieleentwicklung mit Unity",
+    "workText3": "Ich habe Spiele für Android-Plattformen mit Unity und C# entwickelt, unter anderem in den Genres Roguelike Shooter und Hypercasual. Eines davon ist Treasure Wizard, inspiriert von Vampire Survivors."
   },
   "testimonials": {
     "pageTitle": "Referenzen",

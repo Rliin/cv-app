@@ -66,7 +66,16 @@
   },
   "work": {
     "pageTitle": "Work",
-    "pageContent": "Some of the noteworthy projects I have built:"
+    "pageContent": "Some of the noteworthy projects I have built:",
+
+    "workTitle1": "Golet Web and Mobile E-Commerce Platform",
+    "workText1": "As a graduation project, I contributed to the development of a Firebase-based e-commerce platform, compatible with both web and mobile, using React and Kotlin. This platform combines elements of Amazon and Letgo",
+
+    "workTitle2": "Web SCADA Component Visualization",
+    "workText2": "I developed a web SCADA module that combines and properly visualizes the general component information files from desktop SCADA software and real-time data received from the server via SignalR, after organizing and making them usable.",
+
+    "workTitle3": "Game Development with Unity",
+    "workText3": "I developed games for Android platforms using Unity and C# in genres such as Roguelike Shooter and Hypercasual. One of them is Treasure Wizard inspired by Vampire Survivors"
   },
   "testimonials": {
     "pageTitle": "Testimonials",
