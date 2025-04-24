@@ -45,7 +45,7 @@ const Header = () => {
         <LanguageSwitcher />
         <Link
           className="bg-black text-white dark:bg-white dark:text-black px-4.5 py-1.5 hover:bg-slate-400 dark:hover:bg-slate-800 transition duration-400 hover:text-black dark:hover:text-white"
-          href="./CV - Burkay Cetinkaya.pdf"
+          href="./Burkay Çetinkaya.pdf"
           target="_blank"
         >
           {t("download-cv")}
