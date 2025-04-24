@@ -36,9 +36,11 @@ async function Experience() {
   )
 }
 
-function ListExperience (props: {
+async function ListExperience (props: {
   experiencedata: ExperienceDataType;
 }) {
+  const t = await getTranslations("experience")
+
   return (
     <div>
     {props.experiencedata.map((experience : ExperienceItem , index: number) => (
@@ -52,15 +54,15 @@ function ListExperience (props: {
         className="rounded-2xl w-fit"/>
     </div>
     <div className="order-3 xl:order-2 xl:px-10">
-      <h1 className="dark:text-white text-black text-xl">{experience.title}</h1>
-      <h2 className="pb-3">{experience.organization}</h2>
+      <h1 className="dark:text-white text-black text-xl">{t(experience.title)}</h1> {/*<-- Working here */}
+      <h2 className="pb-3">{t(experience.organization)}</h2>
       <ul className="list-disc list-outside">
         {experience.bulletPointContent.map((bullet, bulletIndex) => (
-          <li key={bulletIndex} className="mb-1">{bullet.li}</li>
+          <li key={bulletIndex} className="mb-1">{t(bullet.li)}</li>
         ))}
       </ul>
     </div>
-    <div className=" order-2 xl:order-3 whitespace-nowrap">{experience.dates}</div>
+    <div className=" order-2 xl:order-3 whitespace-nowrap">{t(experience.dates)}</div>
   </div>
     ))}
   </div>

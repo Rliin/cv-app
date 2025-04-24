@@ -37,7 +37,32 @@
   },
   "experience": {
     "pageTitle": "Deneyim",
-    "pageContent": "İşte deneyimlerimin kısa bir özeti:"
+    "pageContent": "İşte deneyimlerimin kısa bir özeti:",
+
+    "iotech title": "Frontend Geliştirici",
+    "iotech organization": "IOTech yazılım",
+    "iotech li1": "Yaygın olarak kullanılan bir web scada yazılımının komponent görselleştirmesi için modüller geliştirdim.",
+    "iotech li2": "Next.js TypeScript, Zustand, Auth.js gibi modern teknolojiler kullanarak çeşitli Ar&Ge projeleri geliştirdim.",
+    "iotech date": "Şub 2025 - Günümüz",
+
+    "devnet title": "Stajyer Oyun Geliştirici",
+    "devnet organization": "IOTech yazılım",
+    "devnet li1": "Roguelike Shooter ve Hypercasual gibi türlerde android platformlar için Unity ve C# kullanarak oyunlar geliştirdim.",
+    "devnet date": "Haz 2024 - Eyl 2024",
+
+    "rgr title": "Pazarlama ve sponsorluk koordinatörü",
+    "rgr organization": "Konya Teknik Üniversitesi Red Giant Rover Takımı",
+    "rgr li1": "2021 yılında Avrupa’nın en prestijli robotik yarışmalarından biri olan European Rover Challenge’da üçüncülük elde ettik.",
+    "rgr li2": "Tanıtım ve sponsorluk faaliyetlerini yönettim ve yarışmalar için rapor ve belgelerin hazırlanmasına katkıda bulundum.",
+    "rgr li3": "Son derece profesyonel bir ekibin üyesi olarak, iş birliği odaklı takım çalışması becerilerimi önemli ölçüde geliştirdim.",
+    "rgr date": "Şub 2021 - Eyl 2023",
+
+    "gikat title": "Yönetim Kurulu Üyesi ve Başkan Yardımcısı",
+    "gikat organization": "Selçuk Üniversitesi Girişimcilik ve Kariyer Topluluğu",
+    "gikat li1": "Ar-Ge, pazarlama ve organizasyon alanlarında başarılı projeler yönettim.",
+    "gikat li2": "Atiker, Altınyıldız ve QNB Finansbank gibi şirketlerle iş anlaşmaları müzakere ettim.",
+    "gikat li3": "1000 katılımcılı büyük ölçekli etkinliklerin yanı sıra 50 kişilik daha küçük etkinlikleri de tasarlayıp yönettim.",
+    "gikat date": "Eki 2021 - Oca 2023"
   },
   "work": {
     "pageTitle": "Çalışmalar",

@@ -4,52 +4,52 @@ export default [
       src: "/experience-logos/iotechLogo.jpg",
       alt: "iotech logo"
     },
-    title: "Frontend Developer",
-    organization: "IOTech Software",
+    title: "iotech title",
+    organization: "iotech organization",
     bulletPointContent: [
-      {li: "Yaygın olarak kullanılan bir web scada yazılımının komponent görselleştirmesi için modüller geliştirdim."},
-      {li: "Next.js TypeScript, Zustand, Auth.js gibi modern teknolojiler kullanarak çeşitli Ar&Ge projeleri geliştirdim."},
+      {li: "iotech li1"},
+      {li: "iotech li2"},
     ],
-    dates: "Feb 2025 - Present",
+    dates: "iotech date",
   },
   {
     image: {
       src: "/experience-logos/devnetLogo.jpg",
       alt: "devnet logo"
     },
-    title: "Game Developer Intern",
-    organization: "Devnet Technology",
+    title: "devnet title",
+    organization: "devnet organization",
     bulletPointContent: [
-      {li: "Roguelike Shooter ve Hypercasual gibi türlerde android platformlar için Unity ve C# kullanarak oyunlar geliştirdim. "},
+      {li: "devnet li1"},
     ],
-    dates: "Jul 2024 - Sep 2024",
+    dates: "devnet date",
   },
   {
     image: {
       src: "/experience-logos/redgiantLogo.jpg",
       alt: "red giant rover logo"
     },
-    title: "Marketing and Sponsorship Coordinator",
-    organization: "Konya Technical University Red Giant Rover Team",
+    title: "rgr title",
+    organization: "rgr organization",
     bulletPointContent: [
-      {li: "We achieved third place in 2021 at the European Rover Challenge, one of Europe’s most prestigious robotics competitions."},
-      {li: "Managed promotion and sponsorship activities and contributed to the preparation of reports and documents for competitions."},
-      {li: "As a member of a highly professional team, I significantly improved my collaborative teamwork skills."},
+      {li: "rgr li1"},
+      {li: "rgr li2"},
+      {li: "rgr li3"},
     ],
-    dates: "Feb 2021 - Sep 2023",
+    dates: "rgr date",
   },
   {
     image: {
       src: "/experience-logos/selcukgikatLogo.jpg",
       alt: "gikat logo"
     },
-    title: "Board Member and Vice President",
-    organization: "Selcuk University Entrepreneurship and Career Club",
+    title: "gikat title",
+    organization: "gikat organization",
     bulletPointContent: [
-      {li: "Led successful projects in R&D, marketing, and organization fields"},
-      {li: "Negotiated business agreements with companies such as Atiker, Altınyıldız, and QNB Finansbank."},
-      {li: " Designed and managed large-scale events with 1000 participants as well as smaller events with 50 participants."},
+      {li: "gikat li1"},
+      {li: "gikat li2"},
+      {li: "gikat li3"},
     ],
-    dates: "Oct 2021 - Jan 2023",
+    dates: "gikat date",
   }
 ]

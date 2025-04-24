@@ -37,7 +37,32 @@
   },
   "experience": {
     "pageTitle": "Experience",
-    "pageContent": "Here is a quick summary of my experiences:"
+    "pageContent": "Here is a quick summary of my experiences:",
+
+    "iotech title": "Frontend Developer",
+    "iotech organization": "IOTech Software",
+    "iotech li1": "I developed modules for component visualization in a widely used web SCADA software.",
+    "iotech li2": "I developed various R&D projects using modern technologies such as Next.js, TypeScript, Zustand, and Auth.js.",
+    "iotech date": "Feb 2025 - Present",
+
+    "devnet title": "Game Developer Intern",
+    "devnet organization": "Devnet Technology",
+    "devnet li1": "I developed games for Android platforms using Unity and C# in genres such as Roguelike Shooter and Hypercasual.",
+    "devnet date": "Jul 2024 - Sep 2024",
+
+    "rgr title": "Marketing and Sponsorship Coordinator",
+    "rgr organization": "Konya Technical University Red Giant Rover Team",
+    "rgr li1": "We achieved third place in 2021 at the European Rover Challenge, one of Europe’s most prestigious robotics competitions.",
+    "rgr li2": "Managed promotion and sponsorship activities and contributed to the preparation of reports and documents for competitions.",
+    "rgr li3": "As a member of a highly professional team, I significantly improved my collaborative teamwork skills.",
+    "rgr date": "Feb 2021 - Sep 2023",
+
+    "gikat title": "Board Member and Vice President",
+    "gikat organization": "Selcuk University Entrepreneurship and Career Club",
+    "gikat li1": "Led successful projects in R&D, marketing, and organization fields",
+    "gikat li2": "Negotiated business agreements with companies such as Atiker, Altınyıldız, and QNB Finansbank.",
+    "gikat li3": "Designed and managed large-scale events with 1000 participants as well as smaller events with 50 participants.",
+    "gikat date": "Oct 2021 - Jan 2023"
   },
   "work": {
     "pageTitle": "Work",
@@ -71,3 +96,4 @@
     "footerText": "This site was developed by Burkay"
   }
 }
+

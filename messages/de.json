@@ -37,7 +37,32 @@
   },
   "experience": {
     "pageTitle": "Erfahrung",
-    "pageContent": "Hier ist eine kurze Zusammenfassung meiner Erfahrungen:"
+    "pageContent": "Hier ist eine kurze Zusammenfassung meiner Erfahrungen:",
+    
+    "iotech title": "Frontend-Entwickler",
+    "iotech organization": "IOTech Software",
+    "iotech li1": "Ich habe Module zur Komponentenvisualisierung für eine weit verbreitete Web-SCADA-Software entwickelt.",
+    "iotech li2": "Ich habe verschiedene F&E-Projekte mit modernen Technologien wie Next.js, TypeScript, Zustand und Auth.js entwickelt.",
+    "iotech date": "Feb 2025 – Heute",
+
+    "devnet title": "Praktikant im Bereich Spieleentwicklung",
+    "devnet organization": "Devnet Technologie",
+    "devnet li1": "Ich habe Spiele für die Android-Plattform mit Unity und C# in Genres wie Roguelike Shooter und Hypercasual entwickelt.",
+    "devnet date": "Jul 2024 - Sep 2024",
+
+    "rgr title": "Koordinator für Marketing und Sponsoring",
+    "rgr organization": "Red Giant Rover Team der Technischen Universität Konya",
+    "rgr li1": "Im Jahr 2021 erreichten wir den dritten Platz bei der European Rover Challenge, einem der renommiertesten Robotikwettbewerbe Europas.",
+    "rgr li2": "Ich leitete Promotion- und Sponsoringaktivitäten und trug zur Erstellung von Berichten und Dokumenten für Wettbewerbe bei.",
+    "rgr li3": "Als Mitglied eines hochprofessionellen Teams habe ich meine Fähigkeiten zur kooperativen Teamarbeit deutlich verbessert.",
+    "rgr date": "Feb 2021 - Sep 2023",
+
+    "gikat title": "Vorstandsmitglied und stellvertretender Vorsitzender",
+    "gikat organization": "Selçuk Universität – Verein für Unternehmertum und Karriere",
+    "gikat li1": "Ich leitete erfolgreiche Projekte in den Bereichen Forschung & Entwicklung, Marketing und Organisation.",
+    "gikat li2": "Ich verhandelte Geschäftsvereinbarungen mit Unternehmen wie Atiker, Altınyıldız und QNB Finansbank.",
+    "gikat li3": "Ich habe sowohl Großveranstaltungen mit 1000 Teilnehmern als auch kleinere Events mit 50 Teilnehmern geplant und geleitet.",
+    "gikat date": "Okt 2021 - Jan 2023"
   },
   "work": {
     "pageTitle": "Projekte",
