@@ -5,11 +5,10 @@ export default [
       alt: "iotech logo"
     },
     title: "Frontend Developer",
+    organization: "IOTech Software",
     bulletPointContent: [
-      {li: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"},
-      {li: "Ut enim ad minim veniam"},
-      {li: "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
-      {li: "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."},
+      {li: "Yaygın olarak kullanılan bir web scada yazılımının komponent görselleştirmesi için modüller geliştirdim."},
+      {li: "Next.js TypeScript, Zustand, Auth.js gibi modern teknolojiler kullanarak çeşitli Ar&Ge projeleri geliştirdim."},
     ],
     dates: "Feb 2025 - Present",
   },
@@ -19,11 +18,9 @@ export default [
       alt: "devnet logo"
     },
     title: "Game Developer Intern",
+    organization: "Devnet Technology",
     bulletPointContent: [
-      {li: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"},
-      {li: "Ut enim ad minim veniam"},
-      {li: "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
-      {li: "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."},
+      {li: "Roguelike Shooter ve Hypercasual gibi türlerde android platformlar için Unity ve C# kullanarak oyunlar geliştirdim. "},
     ],
     dates: "Jul 2024 - Sep 2024",
   },
@@ -33,6 +30,7 @@ export default [
       alt: "red giant rover logo"
     },
     title: "Marketing and Sponsorship Coordinator",
+    organization: "Konya Technical University Red Giant Rover Team",
     bulletPointContent: [
       {li: "We achieved third place in 2021 at the European Rover Challenge, one of Europe’s most prestigious robotics competitions."},
       {li: "Managed promotion and sponsorship activities and contributed to the preparation of reports and documents for competitions."},
@@ -46,6 +44,7 @@ export default [
       alt: "gikat logo"
     },
     title: "Board Member and Vice President",
+    organization: "Selcuk University Entrepreneurship and Career Club",
     bulletPointContent: [
       {li: "Led successful projects in R&D, marketing, and organization fields"},
       {li: "Negotiated business agreements with companies such as Atiker, Altınyıldız, and QNB Finansbank."},

@@ -13,6 +13,7 @@ interface ExperienceItem {
     alt: string
   },
   title: string,
+  organization: string,
   bulletPointContent: BulletPointType[],
   dates: string,
 }
@@ -51,8 +52,8 @@ function ListExperience (props: {
         className="rounded-2xl w-fit"/>
     </div>
     <div className="order-3 xl:order-2 xl:px-10">
-      <h1 className="dark:text-white text-black text-xl pb-3">{experience.title}</h1>
-      <p>Selcuk University </p>
+      <h1 className="dark:text-white text-black text-xl">{experience.title}</h1>
+      <h2 className="pb-3">{experience.organization}</h2>
       <ul className="list-disc list-outside">
         {experience.bulletPointContent.map((bullet, bulletIndex) => (
           <li key={bulletIndex} className="mb-1">{bullet.li}</li>
