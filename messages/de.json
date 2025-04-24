@@ -11,7 +11,7 @@
   },
   "introduction": {
     "title": "Hallo, ich bin Burkay 👋",
-    "text": "Ich bin ein Full-Stack-Entwickler (React.js & Node.js) mit dem Fokus auf die Erstellung (und gelegentlich Gestaltung) außergewöhnlicher digitaler Erlebnisse, die schnell, zugänglich, visuell ansprechend und responsiv sind. Obwohl ich seit über 7 Jahren Webanwendungen entwickle, liebe ich es immer noch, als wäre es ganz neu für mich.",
+    "text": "Baldiger Absolvent der Elektrotechnik und Elektronik mit Praktikumserfahrung in der Spieleentwicklung und industrieller Software. Sicherer Umgang mit modernen Frontend-Technologien wie JavaScript, TypeScript, React, Next.js und Tailwind sowie Erfahrung mit C# und Unity. Ich suche eine Einstiegsposition als Softwareentwickler – vorzugsweise im Frontend –, in der ich mich weiterentwickeln und zum Team beitragen kann.",
     "location": "Eskişehir, Türkei",
     "availability": "Verfügbar für neue Möglichkeiten"
   },
@@ -19,17 +19,17 @@
     "pageTitle": "Über mich",
     "title": "Neugierig auf mich? Hier erfährst du mehr:",
 
-    "text1": "Ich bin ein leidenschaftlicher, autodidaktischer Designer mit Spezialisierung auf Full-Stack-Entwicklung (React.js & Node.js). Es begeistert mich, die technischen und visuellen Aspekte digitaler Produkte zum Leben zu erwecken. Benutzererfahrung, pixelgenaues Design und sauberer, gut lesbarer sowie performanter Code sind mir besonders wichtig.",
-    "text2": "Meine Reise als Webentwickler begann 2015. Seitdem habe ich mich ständig weiterentwickelt, neue Herausforderungen angenommen und die neuesten Technologien gelernt. Heute, in meinen Dreißigern und 7 Jahre nach Beginn meiner Webentwicklungskarriere, baue ich moderne Webanwendungen mit Next.js, TypeScript, Nestjs, Tailwindcss, Supabase und vielem mehr.",
-    "text3": "Ich bin ein zukunftsorientierter Denker und arbeite gerne an Produkten von der Idee bis hin zur vollständigen Entwicklung. Wenn ich nicht gerade im Entwicklermodus bin, findet man mich auf Twitter oder Indie Hackers, wo ich den Werdegang früher Startups verfolge oder einfach meine freie Zeit genieße. Folge mir gerne auf Twitter, wo ich technische Einblicke teile und öffentlich baue, oder schau bei GitHub vorbei.",
-    "text4": "Zum Schluss ein paar kurze Infos über mich:",
+    "text1": "Ich bin bald Absolvent der Elektrotechnik und Elektronik und starte gerade richtig in die Welt der Softwareentwicklung. Meine Reise begann mit einer Begeisterung für Spiele und wurde durch Praktika in einem Game Studio und einem Web-SCADA-Unternehmen noch verstärkt. Diese Kombination hat mir beigebracht, kreativ zu denken und gleichzeitig robuste Systeme zu bauen – und ich habe es geliebt.",
+    "text2": "Ich spezialisiere mich auf moderne Frontend-Entwicklung mit React, Next.js, TypeScript und Tailwind CSS. Zusätzlich bringe ich Erfahrung mit Unity und C# mit, was mir ein gutes Gespür für Design und Interaktivität verleiht. Mein Fokus liegt auf benutzerfreundlichen, zugänglichen und performanten Web-Erlebnissen.",
+    "text3": "Ich bin lernfreudig, neugierig und begleite Projekte gerne von der ersten Idee bis zum fertigen Produkt. Ob beim Coden von Komponenten, dem Beheben von Bugs oder dem Eintauchen in neue Tools – ich bin mit Begeisterung dabei.",
+    "text4": "Wenn ich gerade mal nicht codiere, optimiere ich meine Städte in Cities: Skylines, schaue Game-Dev-Videos oder informiere mich über neue Trends im Frontend-Bereich. Man findet mich auch gerne mal auf GitHub oder beim Sammeln von Design-Inspirationen für “später”.",
 
-    "li1": "Bachelor in Computer Engineering",
-    "li2": "Freiberufler in Vollzeit",
-    "li3": "Wissbegieriger Lerner",
-    "li4": "Ambitionierter Indie Hacker",
+    "li1": "Baldiger Absolvent in Elektrotechnik",
+    "li2": "Praktika in Game Development & Industrie-Software",
+    "li3": "Offen für Junior-Frontend-Rollen – und für Neues",
+    "li4": "Verfügbar für Freelance und Festanstellung",
 
-    "text5": "Noch etwas zum Schluss: Ich bin für freiberufliche Projekte verfügbar. Also melde dich gerne und sag Hallo! Ich beiße nicht, versprochen 😉"
+    "text5": "Ich freue mich, von dir zu hören – ob für ein Projekt oder einfach so zum Austauschen! 😉"
   },
   "skills": {
     "pageTitle": "Fähigkeiten",

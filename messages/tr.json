@@ -11,25 +11,25 @@
   },
   "introduction": {
     "title": "Merhaba, ben Burkay 👋",
-    "text": "Ben, hızlı, erişilebilir, görsel olarak çekici ve duyarlı olağanüstü dijital deneyimler oluşturma (ve zaman zaman tasarlama) odaklı bir full stack geliştiriciyim (React.js & Node.js). 7 yılı aşkın süredir web uygulamaları geliştiriyor olsam da, hala ilk günkü gibi büyük bir tutkuyla yapıyorum.",
+    "text": "Bir ay içinde Elektrik ve Elektronik Mühendisliği bölümünden mezun olacak bir geliştiriciyim. Oyun geliştirme ve endüstriyel yazılım alanlarında staj deneyimine sahibim. JavaScript, TypeScript, React, Next.js ve Tailwind gibi modern frontend teknolojilerine hakimim, ayrıca C# ve Unity ile de deneyimim var. Hızlı öğrenen ve uyum sağlayabilen biri olarak, özellikle frontend alanında katkı sağlayabileceğim ve kendimi geliştirebileceğim bir junior yazılım geliştirici pozisyonu arıyorum.",
     "location": "Eskişehir, Türkiye",
     "availability": "Yeni fırsatlara açığım"
   },
   "aboutMe": {
     "pageTitle": "Hakkımda",
-    "title": "Beni merak mı ettin? İşte burada:",
+    "title": "Beni merak mı ediyorsun? Hemen anlatayım:",
 
-    "text1": "Ben, full stack geliştirme (React.js & Node.js) konusunda uzmanlaşmış, tutkulu ve kendi kendine öğrenmiş bir tasarımcıyım. Dijital ürünlerin teknik ve görsel yönlerini hayata geçirmek konusunda oldukça heyecanlıyım. Kullanıcı deneyimi, pikselle kusursuz tasarım ve okunabilir, performanslı kod yazmak benim için çok önemli.",
-    "text2": "2015 yılında web geliştirici olarak yolculuğuma başladım ve o zamandan beri kendimi sürekli geliştirip yeni teknolojileri öğrenerek ilerledim. Şimdi, otuzlu yaşlarımda ve bu yolculuğa başlayalı 7 yıl olmuşken, Next.js, TypeScript, Nestjs, Tailwindcss, Supabase ve daha birçok modern teknolojiyle yenilikçi web uygulamaları geliştiriyorum.",
-    "text3": "İleriye dönük düşünen biriyim ve fikir aşamasından geliştirmeye kadar uçtan uca ürünler üzerinde çalışmayı seviyorum. Geliştirici modunda olmadığım zamanlarda ise Twitter’da veya Indie Hackers'ta dolaşıp yeni girişimlerin yolculuklarını takip ederken ya da boş zamanımın tadını çıkarırken bulabilirsiniz beni. Twitter’da teknolojiyle ilgili paylaşımlar yapıyor ve açık şekilde geliştirme süreçlerimi paylaşıyorum. GitHub üzerinden de beni takip edebilirsiniz.",
-    "text4": "Son olarak, hakkımda birkaç kısa bilgi:",
+    "text1": "Yakında Elektrik ve Elektronik Mühendisliği mezunu oluyorum. Yazılıma olan ilgim oyunlarla başladı; ardından bir video oyun stüdyosunda ve bir web-SCADA yazılım şirketinde yaptığım stajlarla gerçek dünyada kendimi geliştirme fırsatı buldum. Bu deneyimler bana hem yaratıcı düşünmeyi hem de sağlam sistemler kurmayı öğretti—ve ben bu süreçten gerçekten keyif aldım.",
+    "text2": "React, Next.js, TypeScript ve Tailwind CSS ile modern frontend geliştirme konusunda yetkinim. Ayrıca Unity ve C# tarafında da deneyimim var; bu da tasarım ve etkileşim konusunda bakış açımı zenginleştiriyor. Amacım; sade, erişilebilir ve kullanıcıyı gerçekten düşünen dijital deneyimler oluşturmak.",
+    "text3": "Yeni teknolojileri hızla öğrenen, meraklı ve sürecin fikir aşamasından yayına kadar her noktasında aktif olmayı seven bir geliştiriciyim. Bazen bileşen geliştiriyorum, bazen bug kovalıyorum ama hep öğrenmeye devam ediyorum.",
+    "text4": "Kod yazmadığım zamanlarda Cities: Skylines haritalarıyla uğraşıyor, oyun geliştirme videoları izliyor ya da frontend dünyasındaki yenilikleri takip ediyorum. Arada GitHub’da takılıyor veya “bir gün kesin kullanırım” diye tasarım ilhamları kaydediyorum.",
 
-    "li1": "Bilgisayar Mühendisliği Lisans Mezunu",
-    "li2": "Tam zamanlı freelancer",
-    "li3": "Meraklı bir öğrenen",
-    "li4": "Girişimci olma hayaliyle",
+    "li1": "Elektrik-Elektronik Mühendisliği son sınıf öğrencisiyim",
+    "li2": "Oyun ve endüstriyel yazılım geliştirme stajları yaptım",
+    "li3": "Junior frontend rollerine (ve belki sürprizlere) açığım",
+    "li4": "Freelance ve tam zamanlı pozisyonlara uygunum",
 
-    "text5": "Son bir şey daha, freelance işler için müsaitim. O yüzden iletişime geçmekten çekinme! Söz veriyorum, ısırmam 😉"
+    "text5": "Bağlantı kurmak istersen çok sevinirim! Projelerini duymak ya da birlikte bir şeyler üretmek harika olur. 😉"
   },
   "skills": {
     "pageTitle": "Yetenekler",

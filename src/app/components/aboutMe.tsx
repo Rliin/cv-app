@@ -41,11 +41,11 @@ async function AboutMe() {
             {t("text4")}
           </p>
           <br />
-          <ol className="*:m-1 grid grid-cols-2">
-            <li> • {t("li1")} </li>
-            <li> • {t("li2")} </li>
-            <li> • {t("li3")} </li>
-            <li> • {t("li4")} </li>
+          <ol className="*:m-4 grid grid-cols-2 list-disc list-outside">
+            <li> {t("li1")} </li>
+            <li> {t("li2")} </li>
+            <li> {t("li3")} </li>
+            <li> {t("li4")} </li>
           </ol>
           <br />
           <p>{t("text5")}</p>

@@ -52,6 +52,7 @@ function ListExperience (props: {
     </div>
     <div className="order-3 xl:order-2 xl:px-10">
       <h1 className="dark:text-white text-black text-xl pb-3">{experience.title}</h1>
+      <p>Selcuk University </p>
       <ul className="list-disc list-outside">
         {experience.bulletPointContent.map((bullet, bulletIndex) => (
           <li key={bulletIndex} className="mb-1">{bullet.li}</li>

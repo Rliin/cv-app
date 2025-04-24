@@ -1,21 +1,45 @@
 export default [
   {
     logo: "javascript-svgrepo-com",
+    logoDark: "javascript-svgrepo-com",
     text: "Javascript",
   },
   {
     logo: "typescript-icon-svgrepo-com",
+    logoDark: "typescript-icon-svgrepo-com",
     text: "Typescript",
   },
   {
     logo: "react-svgrepo-com",
+    logoDark: "react-svgrepo-com",
     text: "React",
   },
   {
     logo: "nextjs-icon-svgrepo-com",
+    logoDark: "nextjs-svgrepo-com",
     text: "Next.js",
   },
   {
+    logo: "tailwind-svgrepo-com",
+    logoDark: "tailwind-svgrepo-com",
+    text: "Tailwindcss",
+  },
+  {
+    logo: "unity-svgrepo-com",
+    logoDark: "unity-dark",
+    text: "Unity",
+  },
+  {
+    logo: "c-sharp",
+    logoDark: "c-sharp",
+    text: "C#",
+  },
+  {
+    logo: "c-plus",
+    logoDark: "c-plus",
+    text: "c++",
+  },
+  /* {
     logo: "nodejs-icon-svgrepo-com",
     text: "Node.js",
   },
@@ -42,12 +66,8 @@ export default [
   {
     logo: "sass-svgrepo-com",
     text: "Sass/Scss",
-  },
-  {
-    logo: "tailwind-svgrepo-com",
-    text: "Tailwindcss",
-  },
-  {
+  }, */
+  /* {
     logo: "figma-svgrepo-com",
     text: "Figma",
   },
@@ -58,9 +78,10 @@ export default [
   {
     logo: "storybook-icon-svgrepo-com",
     text: "Storybook",
-  },
+  }, */
   {
     logo: "git-svgrepo-com",
+    logoDark: "git-svgrepo-com",
     text: "Git",
   }
 ]

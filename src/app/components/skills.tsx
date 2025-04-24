@@ -24,15 +24,23 @@ async function Skills() {
 }
 
 function ListSkills(props: {
-  skillsdata: Array<{ logo: string; text: string }>;
+  skillsdata: Array<{ logo: string; logoDark: string; text: string}>;
 }) {
   return (
-    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 mt-5">
+    <div className="grid grid-cols-3 xl:grid-cols-5 mt-5">
       {props.skillsdata.map((skill, index: number) => (
         <div key={index} className="hover:scale-105 flex flex-col items-center p-4">
           <div className="mb-2">
             <Image
               src={`/skills-logos/${skill.logo}.svg`}
+              className="dark:hidden"
+              alt={skill.text}
+              width={58}
+              height={58}
+            />
+            <Image
+              src={`/skills-logos/${skill.logoDark}.svg`}
+              className="hidden dark:block"
               alt={skill.text}
               width={58}
               height={58}
