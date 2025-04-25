@@ -6,9 +6,10 @@ import { ThemeProvider } from "../components/theme-provider";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
-<SpeedInsights/>
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -56,6 +57,8 @@ export default async function RootLayout({
             disableTransitionOnChange
           >
             {children}
+            <SpeedInsights/>
+            <Analytics/>
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
