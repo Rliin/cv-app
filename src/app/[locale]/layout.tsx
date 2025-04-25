@@ -6,6 +6,9 @@ import { ThemeProvider } from "../components/theme-provider";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
+<SpeedInsights/>
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

@@ -37,7 +37,7 @@ export default [
   {
     logo: "c-plus",
     logoDark: "c-plus",
-    text: "c++",
+    text: "C++",
   },
   /* {
     logo: "nodejs-icon-svgrepo-com",
