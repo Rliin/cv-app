@@ -44,7 +44,7 @@ async function ListExperience (props: {
   return (
     <div>
     {props.experiencedata.map((experience : ExperienceItem , index: number) => (
-    <div key={index} className="flex xl:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg p-15 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] hover:scale-101 transition-transform duration-400 ease-in-out">
+    <div key={index} className="flex xl:flex-row flex-col gap-5 justify-around bg-white dark:bg-[#1F2937] rounded-lg px-15 py-10 mt-10 mx-4 sm:mx-10 md:mx-20 lg:mx-30 xl:x-50 2xl:mx-70 shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] hover:scale-101 transition-transform duration-400 ease-in-out">
     <div className="order-1">
       <Image
         src={experience.image.src}

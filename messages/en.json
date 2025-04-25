@@ -68,7 +68,7 @@
     "pageTitle": "Work",
     "pageContent": "Some of the noteworthy projects I have built:",
 
-    "workTitle1": "Golet Web and Mobile E-Commerce Platform",
+    "workTitle1": "Golet E-Commerce Platform",
     "workText1": "As a graduation project, I contributed to the development of a Firebase-based e-commerce platform, compatible with both web and mobile, using React and Kotlin. This platform combines elements of Amazon and Letgo",
 
     "workTitle2": "Web SCADA Component Visualization",
@@ -86,15 +86,16 @@
     "testimonialTitle1": "Senior Engineer - IOTech",
     "testimonialLink1": "https://www.linkedin.com/in/hamza-barış-doğan-410922165/",
 
-    "testimonialText2": "“Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.”",
-    "testimonialPerson2": "Burak Kılıç",
-    "testimonialTitle2": "Frontend Developer - IOTech",
-    "testimonialLink2": "https://www.linkedin.com/in/burakkilic2/",
+    
+    "testimonialText2": "“Thanks to his entrepreneurial spirit, project-oriented work discipline, and interest in technologies, he has made a difference during his student life. As his academic advisor, I wholeheartedly recommend him.”",
+    "testimonialPerson2": "Hasan Erdinç Koçer",
+    "testimonialTitle2": "“Dean of the Faculty of Technology, Selçuk University”",
+    "testimonialLink2": "https://www.linkedin.com/in/hasan-erdinc-kocer-43884533/",
 
-    "testimonialText3": "“Burkay was extremely easy and pleasant to work with and he truly cares about the project being a success. Burkay has a high level of knowledge and was able to work on my MERN stack application without any issues.”",
-    "testimonialPerson3": "John Doe",
-    "testimonialTitle3": "Freelancer",
-    "testimonialLink3": " "
+    "testimonialText3": "“Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.”",
+    "testimonialPerson3": "Burak Kılıç",
+    "testimonialTitle3": "Frontend Developer - IOTech",
+    "testimonialLink3": "https://www.linkedin.com/in/burakkilic2/"
   },
   "getInTouch": {
     "pageTitle": "Get in touch",

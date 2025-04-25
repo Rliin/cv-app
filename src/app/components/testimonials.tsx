@@ -1,4 +1,4 @@
-import { CircleUserRound, Linkedin } from "lucide-react";
+import { CircleUserRound } from "lucide-react";
 import { getTranslations } from 'next-intl/server';
 import { Wave1 } from "./waveSvg";
 
@@ -19,10 +19,10 @@ async function Testimonials() {
         <CircleUserRound 
         size={64} 
         color="black"/>
-          <p>{t("testimonialText1")}</p>
+          <p className="text-pretty">{t("testimonialText1")}</p>
           <div className="flex flex-col items-center *:flex *:flex-row *:gap-2 *:items-center">
           <h1>{t("testimonialPerson1")}</h1>
-          <h3>{t("testimonialTitle1")}<Linkedin size={20}/></h3>
+          <h3>{t("testimonialTitle1")}</h3>
           </div>
         </a>
         <a className="flex flex-col justify-between text-xl items-center gap-10 bg-white dark:bg-[#1F2937] mt-15 py-15 px-5 md:px-15 rounded-lg xl:w-1/3 mx-auto hover:scale-101 transition-transform duration-400 ease-in-out"
@@ -31,17 +31,17 @@ async function Testimonials() {
         <CircleUserRound 
         size={64} 
         color="black"/>
-          <p>{t("testimonialText2")}</p>
+          <p className="text-pretty">{t("testimonialText2")}</p>
           <div className="flex flex-col items-center *:flex *:flex-row *:gap-2 *:items-center">
           <h1>{t("testimonialPerson2")}</h1>
-          <h3>{t("testimonialTitle2")}<Linkedin size={20}/></h3>
+          <h3 className="text-pretty text-center">{t("testimonialTitle2")}</h3>
           </div>
         </a>
         <div className="flex flex-col justify-between text-xl items-center gap-10 bg-white dark:bg-[#1F2937] mt-15 py-15 px-5 md:px-15 rounded-lg xl:w-1/3 mx-auto hover:scale-101 transition-transform duration-400 ease-in-out">
         <CircleUserRound 
         size={64} 
         color="black"/>
-          <p>{t("testimonialText3")}</p>
+          <p className="text-pretty">{t("testimonialText3")}</p>
           <div className="flex flex-col items-center">
           <h1>{t("testimonialPerson3")}</h1>
           <h3>{t("testimonialTitle3")}</h3>
