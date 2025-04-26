@@ -23,6 +23,8 @@ async function AboutMe() {
               height={250}
               width={400}
               className="rounded-lg"
+              priority={true}
+              
             />
           </div>
         </div>

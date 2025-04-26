@@ -51,6 +51,7 @@ async function ListExperience (props: {
         alt={experience.image.alt}
         width={68}
         height={68} 
+        sizes="192px"
         className="rounded-2xl w-fit"/>
     </div>
     <div className="order-3 xl:order-2 xl:px-10">

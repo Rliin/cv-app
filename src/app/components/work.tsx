@@ -26,7 +26,7 @@ async function Work() {
               className="rounded-lg m-12"
               src="/GoletPicture.png"
               alt="Golet Project"
-              width={650}
+              width={1500}
               height={650}
             />
           </div>
@@ -111,7 +111,7 @@ async function Work() {
               className="rounded-lg m-12"
               src="/TWPicture.png"
               alt="Treausure Wizard Project"
-              width={650}
+              width={1500}
               height={650}
             />
           </div>

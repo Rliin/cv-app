@@ -55,6 +55,8 @@ async function Introduction() {
             src={photoIntroduction}
             alt="Profile"
             className="rounded-lg object-cover"
+            priority={true}
+            sizes="290px"
           />
         </div>
       </div>
