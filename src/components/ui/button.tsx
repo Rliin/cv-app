@@ -19,13 +19,18 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground shadow-xs hover:bg-secondary/80",
         ghost:
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
-        link: "text-primary underline-offset-4 hover:underline",
+        link: 
+        "text-primary underline-offset-4 hover:underline",
+        BCustom:
+          "bg-[#030712] dark:bg-white dark:md:bg-[#030712] md:bg-white text-white dark:text-black dark:md:text-gray-400 md:text-black md:hover:scale-110 md:dark:hover:text-white transition-all duration-400 cursor-pointer",
+
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",
         sm: "h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5",
         lg: "h-10 rounded-md px-6 has-[>svg]:px-4",
         icon: "size-9",
+        BCustomSize: "size-9 md:size-7",
       },
     },
     defaultVariants: {
