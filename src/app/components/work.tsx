@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Wave2 } from "./waveSvg";
-
+import PageTitle from "./pageTitle";
 async function Work() {
   const t = await getTranslations("work");
   return (
@@ -10,14 +10,7 @@ async function Work() {
       id="work"
       className="relative bg-(--first-color) py-25 lg:px-25 xl:px-35 dark:text-gray-400"
     >
-      <div className="flex justify-center">
-        <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#E6E8EB] dark:bg-[#525A68]">
-          {t("pageTitle")}
-        </h1>
-      </div>
-      <div className="flex justify-center pt-5 px-5 text-pretty">
-        <p>{t("pageContent")}</p>
-      </div>
+      <PageTitle pageName="work"/>
 
       <div>
         <div className="work-item-utility hover:scale-101 transition-transform duration-400 ease-in-out">

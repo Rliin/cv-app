@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Wave1 } from "./waveSvg";
+import PageTitle from "./pageTitle";
 
 async function AboutMe() {
   const t = await getTranslations("aboutMe");
@@ -9,11 +10,7 @@ async function AboutMe() {
       id="aboutMe"
       className="relative bg-(--second-color) py-25 lg:px-25 xl:px-35 px-10 dark:text-gray-400 "
     >
-      <div className="flex justify-center">
-        <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#E6E8EB] dark:bg-[#525A68]">
-          {t("pageTitle")}
-        </h1>
-      </div>
+      <PageTitle pageName="aboutMe" hasContent={false}/>
       <div className="flex flex-col lg:flex-row justify-around gap-10 py-10">
         <div className="flex justify-center *:rounded-lg lg:w-1/2 px-10">
           <div>

@@ -1,20 +1,12 @@
 import SkillsData from "@/app/data/skillsData";
 import Image from "next/image";
-import { getTranslations } from "next-intl/server";
 import { Wave2 } from "./waveSvg";
+import PageTitle from "./pageTitle";
 
 async function Skills() {
-  const t = await getTranslations("skills");
   return (
     <section className="relative bg-(--first-color) py-25 lg:p-25 xl:p-35 dark:text-gray-400">
-      <div className="flex justify-center">
-        <h1 className="text-sm px-4.5 py-1 rounded-full bg-[#E6E8EB] dark:bg-[#525A68]">
-          {t("pageTitle")}
-        </h1>
-      </div>
-      <div className="flex justify-center pt-5 px-5 text-pretty">
-        <p>{t("pageContent")}</p>
-      </div>
+      <PageTitle pageName="skills"/>
       <div>
         <ListSkills skillsdata={SkillsData} />
       </div>
