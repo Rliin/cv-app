@@ -69,38 +69,22 @@ const Header = () => {
       `}
       >
         <Button size="icon">
-          <a
-            href="#aboutMe"
-            className="py-2 px-2 hover:text-white"
-            onClick={toggleMenu}
-          >
+          <a href="#aboutMe" onClick={toggleMenu}>
             <User />
           </a>
         </Button>
         <Button size="icon">
-          <a
-            href="#work"
-            className="py-2 px-2 hover:text-white"
-            onClick={toggleMenu}
-          >
+          <a href="#work" onClick={toggleMenu}>
             <Briefcase />
           </a>
         </Button>
         <Button size="icon">
-          <a
-            href="#testimonials"
-            className="py-2 px-2 hover:text-white"
-            onClick={toggleMenu}
-          >
+          <a href="#testimonials" onClick={toggleMenu}>
             <MessageCircleHeart />
           </a>
         </Button>
         <Button size="icon">
-          <a
-            href="#getInTouch"
-            className="py-2 px-2 hover:text-white"
-            onClick={toggleMenu}
-          >
+          <a href="#getInTouch" onClick={toggleMenu}>
             <Mail />
           </a>
         </Button>
@@ -112,12 +96,7 @@ const Header = () => {
         </div>
 
         <Button size="icon">
-          <a
-            href={cv}
-            target="_blank"
-            className="py-2 px-2 hover:text-white"
-            onClick={toggleMenu}
-          >
+          <a href={cv} target="_blank" onClick={toggleMenu}>
             <FileDown />
           </a>
         </Button>
