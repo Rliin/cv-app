@@ -1,5 +1,4 @@
-/* import { ExternalLink } from "lucide-react"; */
-import Image from "next/image";
+/* import Image from "next/image"; */
 import { getTranslations } from "next-intl/server";
 import { Wave2 } from "./waveSvg";
 import PageTitle from "./pageTitle";
