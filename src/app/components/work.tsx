@@ -10,7 +10,7 @@ async function Work() {
       id="work"
       className="relative bg-(--first-color) py-25 lg:px-25 xl:px-35 dark:text-gray-400"
     >
-      <PageTitle pageName="work"/>
+      <PageTitle pageName="work" />
 
       <div>
         <div className="work-item-utility hover:scale-101 transition-transform duration-400 ease-in-out">
@@ -24,12 +24,8 @@ async function Work() {
             />
           </div>
           <div className="bg-white dark:bg-[#1F2937] rounded-b-lg lg:rounded-r-lg lg:rounded-bl-none p-5 lg:p-15 *:mb-5">
-            <h1 className="dark:text-white text-xl">
-              {t("workTitle1")}
-            </h1>
-            <p>
-            {t("workText1")}
-            </p>
+            <h1 className="dark:text-white text-xl">{t("workTitle1")}</h1>
+            <p>{t("workText1")}</p>
             <ul className="*:px-7 *:py-1 *:mr-2 *:my-1 *:bg-[#E6E8EA] dark:*:bg-[#374151] *:rounded-full flex flex-wrap font-bold">
               <li>React</li>
               <li>Javascript</li>
@@ -80,6 +76,8 @@ async function Work() {
             </ul>
           </div>
         </div>
+
+        
         <div className="work-item-utility hover:scale-101 transition-transform duration-400 ease-in-out">
           <div className="order-last lg:order-first bg-white dark:bg-[#1F2937] rounded-b-lg lg:rounded-l-lg lg:rounded-br-none p-5 lg:p-15 *:mb-5">
             <h1 className="dark:text-white text-xl">{t("workTitle3")}</h1>
@@ -99,6 +97,7 @@ async function Work() {
             </a>
           </div> */}
           </div>
+
           <div className="order-first lg:order-last flex bg-[#FAFAFC] dark:bg-[#374151] rounded-t-lg lg:rounded-r-lg lg:rounded-tl-none items-center justify-center">
             <Image
               className="rounded-lg m-12"
@@ -109,7 +108,6 @@ async function Work() {
             />
           </div>
         </div>
-        
       </div>
       <Wave2 />
     </section>

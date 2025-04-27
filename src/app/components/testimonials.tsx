@@ -35,7 +35,9 @@ async function Testimonials() {
           <h3 className="text-pretty text-center">{t("testimonialTitle2")}</h3>
           </div>
         </a>
-        <div className="flex flex-col justify-between text-xl items-center gap-10 bg-white dark:bg-[#1F2937] mt-15 py-15 px-5 md:px-15 rounded-lg xl:w-1/3 mx-auto hover:scale-101 transition-transform duration-400 ease-in-out">
+        <a className="flex flex-col justify-between text-xl items-center gap-10 bg-white dark:bg-[#1F2937] mt-15 py-15 px-5 md:px-15 rounded-lg xl:w-1/3 mx-auto hover:scale-101 transition-transform duration-400 ease-in-out"
+        href={t("testimonialLink3")}
+        target="_blank">
         <CircleUserRound 
         size={64} 
         color="black"/>
@@ -44,7 +46,7 @@ async function Testimonials() {
           <h1>{t("testimonialPerson3")}</h1>
           <h3>{t("testimonialTitle3")}</h3>
           </div>
-        </div>
+        </a>
       </div>
       <Wave1/>
     </section>
