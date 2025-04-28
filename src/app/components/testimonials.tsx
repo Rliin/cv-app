@@ -56,8 +56,8 @@ async function Testimonials() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="-mx-5 lg:mx-0"/>
-        <CarouselNext className="-mx-5 lg:mx-0"/>
+        <CarouselPrevious className="hidden lg:flex"/>
+        <CarouselNext className="hidden lg:flex"/>
       </Carousel>
 
       {/* <div className="flex flex-col xl:flex-row xl:gap-18 *:shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] **:[&>h3]:text-lg dark:**:[&>h1]:text-white **:[&>h1]:text-2xl **:[&>h1]:font-bold **:[&>h1]:mb-1">
