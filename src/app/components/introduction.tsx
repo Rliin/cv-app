@@ -54,15 +54,15 @@ async function Introduction() {
             fill={true}
             src={photoIntroduction}
             alt="Profile"
-            className="rounded-lg object-cover"
+            className="rounded-lg"
             priority={true}
-            sizes="290px"
+            quality={100}
+            //sizes="290px"
           />
         </div>
       </div>
 
       <WaveOpacity color="second-color" />
-
     </section>
   );
 }

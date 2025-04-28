@@ -34,7 +34,7 @@ async function Testimonials() {
               key={index}
               className="pl-1 md:basis-1/2 lg:basis-1/3"
             >
-              <div className="p-15 md:p-10 lg:p-5 hover:scale-101 transition-transform duration-400 ease-in-out">
+              <div className="p-2 md:p-2 lg:p-5 hover:scale-101 transition-transform duration-400 ease-in-out">
                 <Card className="bg-white dark:bg-[#1F2937]">
                   <CardContent className="flex aspect-square text-center px-10">
                       <a
@@ -56,8 +56,8 @@ async function Testimonials() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-5 md:left-2 lg:-left-10" />
-        <CarouselNext className="right-5 md:right-2 lg:-right-10" />
+        <CarouselPrevious className="-mx-5 lg:mx-0"/>
+        <CarouselNext className="-mx-5 lg:mx-0"/>
       </Carousel>
 
       {/* <div className="flex flex-col xl:flex-row xl:gap-18 *:shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] **:[&>h3]:text-lg dark:**:[&>h1]:text-white **:[&>h1]:text-2xl **:[&>h1]:font-bold **:[&>h1]:mb-1">

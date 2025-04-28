@@ -49,7 +49,7 @@ async function Work() {
             <p>{t("workText1")}</p>
           </div>
           <div className="flex bg-white dark:bg-[#1F2937] p-4 rounded-b-lg lg:rounded-r-lg lg:rounded-bl-none items-center justify-center">
-            <ul className="*:px-7 *:py-1 *:mr-2 *:my-1 *:bg-[#E6E8EA] dark:*:bg-[#374151] *:rounded-full flex flex-wrap font-bold justify-end">
+            <ul className="*:px-7 *:py-1 *:mr-2 *:my-1 *:bg-[#E6E8EA] dark:*:bg-[#374151] *:rounded-full flex flex-wrap font-bold justify-start lg:justify-end">
             <li>React</li>
               <li>Javascript</li>
               <li>Firebase</li>
@@ -73,7 +73,7 @@ async function Work() {
             <p>{t("workText2")}</p>
           </div>
           <div className="flex bg-white dark:bg-[#1F2937] p-4 rounded-b-lg lg:rounded-r-lg lg:rounded-bl-none items-center justify-center">
-            <ul className="*:px-7 *:py-1 *:mr-2 *:my-1 *:bg-[#E6E8EA] dark:*:bg-[#374151] *:rounded-full flex flex-wrap font-bold justify-end">
+            <ul className="*:px-7 *:py-1 *:mr-2 *:my-1 *:bg-[#E6E8EA] dark:*:bg-[#374151] *:rounded-full flex flex-wrap font-bold justify-start lg:justify-end">
               <li>React</li>
               <li>Next.js</li>
               <li>Typescript</li>
@@ -95,7 +95,7 @@ async function Work() {
             <p>{t("workText3")}</p>
           </div>
           <div className="flex bg-white dark:bg-[#1F2937] p-4 rounded-b-lg lg:rounded-r-lg lg:rounded-bl-none items-center justify-center">
-            <ul className="*:px-7 *:py-1 *:mr-2 *:my-1 *:bg-[#E6E8EA] dark:*:bg-[#374151] *:rounded-full flex flex-wrap font-bold justify-end">
+            <ul className="*:px-7 *:py-1 *:mr-2 *:my-1 *:bg-[#E6E8EA] dark:*:bg-[#374151] *:rounded-full flex flex-wrap font-bold justify-start lg:justify-end">
             <li>Unity</li>
               <li>C#</li>
               <li>Android</li>

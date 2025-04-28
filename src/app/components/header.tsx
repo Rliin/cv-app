@@ -70,7 +70,7 @@ const Header = () => {
       >
         <Button size="icon">
           <a href="#aboutMe" onClick={toggleMenu}>
-            <User />
+            <User/>
           </a>
         </Button>
         <Button size="icon">
