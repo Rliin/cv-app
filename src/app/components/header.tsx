@@ -18,12 +18,12 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import LanguageSwitcher from "./languageSwitcher";
 
-const cv = "./Burkay Çetinkaya.pdf";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  
   const t = useTranslations("header");
+  const cv = t("cv");
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -70,7 +70,7 @@ const Header = () => {
       >
         <Button size="icon">
           <a href="#aboutMe" onClick={toggleMenu}>
-            <User/>
+            <User />
           </a>
         </Button>
         <Button size="icon">

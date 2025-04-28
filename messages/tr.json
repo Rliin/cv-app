@@ -3,6 +3,7 @@
     "currentLanguage": "TR"
   },
   "header": {
+    "cv": "./TR-Burkay.pdf",
     "about": "Hakkımda",
     "work": "Çalışmalar",
     "testimonials": "Referanslar",
@@ -94,7 +95,12 @@
     "testimonialText3": "“Harika biri, karmaşık frontend işleri için kesinlikle tavsiye ederim! Becerileri üst düzeyde ve herhangi bir ekibe harika bir katkı sağlar.”",
     "testimonialPerson3": "Burak Kılıç",
     "testimonialTitle3": "Frontend Yazılım Geliştirici - IOTech",
-    "testimonialLink3": "https://www.linkedin.com/in/burakkilic2/"
+    "testimonialLink3": "https://www.linkedin.com/in/burakkilic2/",
+
+    "testimonialText4": "“Burkay ile çalışmak gerçekten büyük bir keyifti. Sistemi bir bütün olarak görüp, her parçanın büyük resimdeki yerini anlama konusunda nadir bulunan bir yeteneğe sahip. Ayrıca kapsamlı araştırmaları ve etkili problem çözme becerileriyle her zaman etkileyici katkılar sundu. Burkay, çalışacağı her ekibe önemli bir değer katacaktır.”",
+    "testimonialPerson4": "Abdurahmaan Yuusuf",
+    "testimonialTitle4": "Ar-Ge Takım Lideri – IOTech",
+    "testimonialLink4": "https://www.linkedin.com/in/abdurahmaan-yuusuf-6512a8321/"
   },
   "getInTouch": {
     "pageTitle": "İletişime Geç",

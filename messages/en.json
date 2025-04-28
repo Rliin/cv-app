@@ -3,6 +3,7 @@
     "currentLanguage": "EN"
   },
   "header": {
+    "cv": "./EN-Burkay.pdf",
     "about": "About",
     "work": "Work",
     "testimonials": "Testimonials",
@@ -89,13 +90,18 @@
     
     "testimonialText2": "“Thanks to his entrepreneurial spirit, project-oriented work discipline, and interest in technologies, he has made a difference during his student life. As his academic advisor, I wholeheartedly recommend him.”",
     "testimonialPerson2": "Hasan Erdinç Koçer",
-    "testimonialTitle2": "“Dean of the Faculty of Technology, Selçuk University”",
+    "testimonialTitle2": "Dean of the Faculty of Technology, Selçuk University",
     "testimonialLink2": "https://www.linkedin.com/in/hasan-erdinc-kocer-43884533/",
 
     "testimonialText3": "“Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.”",
     "testimonialPerson3": "Burak Kılıç",
     "testimonialTitle3": "Frontend Developer - IOTech",
-    "testimonialLink3": "https://www.linkedin.com/in/burakkilic2/"
+    "testimonialLink3": "https://www.linkedin.com/in/burakkilic2/",
+
+    "testimonialText4": "“Working with Burkay was a pleasure. They have a rare ability to think system-wide, understanding how each piece fits into the bigger picture. Burkay also consistently impressed me with their thorough research and problem-solving skills, making thoughtful, well-informed contributions. They would be a strong asset to any team.”",
+    "testimonialPerson4": "Abdurahmaan Yuusuf",
+    "testimonialTitle4": "R&D Team Leader - IOTech",
+    "testimonialLink4": "https://www.linkedin.com/in/abdurahmaan-yuusuf-6512a8321/"
   },
   "getInTouch": {
     "pageTitle": "Get in touch",

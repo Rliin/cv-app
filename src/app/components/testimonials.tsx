@@ -29,7 +29,7 @@ async function Testimonials() {
         }}
       >
         <CarouselContent className="-ml-1 mx-5">
-          {Array.from({ length: 3 }).map((_, index) => (
+          {Array.from({ length: 4 }).map((_, index) => (
             <CarouselItem
               key={index}
               className="pl-1 md:basis-1/2 lg:basis-1/3"

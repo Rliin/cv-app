@@ -3,6 +3,7 @@
     "currentLanguage": "DE"
   },
   "header": {
+    "cv": "./EN-Burkay.pdf",
     "about": "Über Mich",
     "work": "Projekte",
     "testimonials": "Referenzen",
@@ -95,7 +96,12 @@
     "testimonialText3": "„Toller Typ, absolut empfehlenswert für jede KOMPLEXE Frontend-Entwicklungsarbeit! Seine Fähigkeiten sind erstklassig und er ist eine große Bereicherung für jedes Team.“",
     "testimonialPerson3": "Burak Kılıç",
     "testimonialTitle3": "Frontend-Entwickler – IOTech",
-    "testimonialLink3": "https://www.linkedin.com/in/burakkilic2/"
+    "testimonialLink3": "https://www.linkedin.com/in/burakkilic2/",
+
+    "testimonialText4": "“Die Zusammenarbeit mit Burkay war eine echte Bereicherung. Er verfügt über eine seltene Fähigkeit, Systeme ganzheitlich zu betrachten und zu verstehen, wie die einzelnen Teile im großen Ganzen zusammenwirken. Zudem beeindruckte mich Burkay stets durch seine gründliche Recherche und seine ausgezeichneten Problemlösungsfähigkeiten, mit denen er wohlüberlegte und fundierte Beiträge leistete. Er wird für jedes Team eine große Bereicherung sein.”",
+    "testimonialPerson4": "Abdurahmaan Yuusuf",
+    "testimonialTitle4": "F&E-Teamleiter – IOTech",
+    "testimonialLink4": "https://www.linkedin.com/in/abdurahmaan-yuusuf-6512a8321/"
   },
   "getInTouch": {
     "pageTitle": "Kontakt aufnehmen",
