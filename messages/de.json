@@ -87,7 +87,6 @@
     "testimonialTitle1": "Senioringenieur - IOTech",
     "testimonialLink1": "https://www.linkedin.com/in/hamza-barış-doğan-410922165/",
 
-    
     "testimonialText2": "„Dank seines unternehmerischen Geistes, seiner projektorientierten Arbeitsdisziplin und seines Interesses an Technologien hat er sich während seines Studentenlebens hervorgetan. Als sein akademischer Berater empfehle ich ihn mit bestem Gewissen.“",
     "testimonialPerson2": "Hasan Erdinc Kocer",
     "testimonialTitle2": "Dekan der Fakultät für Technologie, Selçuk Universität",
@@ -101,7 +100,12 @@
     "testimonialText4": "“Die Zusammenarbeit mit Burkay war eine echte Bereicherung. Er verfügt über eine seltene Fähigkeit, Systeme ganzheitlich zu betrachten und zu verstehen, wie die einzelnen Teile im großen Ganzen zusammenwirken. Zudem beeindruckte mich Burkay stets durch seine gründliche Recherche und seine ausgezeichneten Problemlösungsfähigkeiten, mit denen er wohlüberlegte und fundierte Beiträge leistete. Er wird für jedes Team eine große Bereicherung sein.”",
     "testimonialPerson4": "Abdurahmaan Yuusuf",
     "testimonialTitle4": "F&E-Teamleiter – IOTech",
-    "testimonialLink4": "https://www.linkedin.com/in/abdurahmaan-yuusuf-6512a8321/"
+    "testimonialLink4": "https://www.linkedin.com/in/abdurahmaan-yuusuf-6512a8321/",
+
+    "testimonialText5": "Burkay war während seines Praktikums eine fantastische Bereicherung für unser Team. Er hat sich schnell in unseren Tech-Stack eingearbeitet, sauberen und zuverlässigen Code geliefert und starke Problemlösungsfähigkeiten gezeigt. Seine positive Einstellung, Offenheit für Feedback und Teamfähigkeit hatten einen echten Einfluss. Ich kann Burkay für jede zukünftige Frontend-Position wärmstens empfehlen – er hat großes Potenzial.",
+    "testimonialPerson5": "Mehmet Emir Akbay",
+    "testimonialTitle5": "User Interface Engineer – IOTech",
+    "testimonialLink5": "https://www.linkedin.com/in/mehmet-emir-akbay-0ab251132/"
   },
   "getInTouch": {
     "pageTitle": "Kontakt aufnehmen",

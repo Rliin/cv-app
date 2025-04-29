@@ -101,7 +101,12 @@
     "testimonialText4": "“Working with Burkay was a pleasure. They have a rare ability to think system-wide, understanding how each piece fits into the bigger picture. Burkay also consistently impressed me with their thorough research and problem-solving skills, making thoughtful, well-informed contributions. They would be a strong asset to any team.”",
     "testimonialPerson4": "Abdurahmaan Yuusuf",
     "testimonialTitle4": "R&D Team Leader - IOTech",
-    "testimonialLink4": "https://www.linkedin.com/in/abdurahmaan-yuusuf-6512a8321/"
+    "testimonialLink4": "https://www.linkedin.com/in/abdurahmaan-yuusuf-6512a8321/",
+
+    "testimonialText5": "“Burkay was a fantastic addition to our team during his internship. He quickly picked up our tech stack, delivered clean and reliable code, and showed strong problem-solving skills. His positive attitude, responsiveness to feedback, and teamwork made a real impact. I highly recommend Burkay for any future frontend role—he have great potential.”",
+    "testimonialPerson5": "Mehmet Emir Akbay",
+    "testimonialTitle5": "User Interface Engineer - IOTech",
+    "testimonialLink5": "https://www.linkedin.com/in/mehmet-emir-akbay-0ab251132/"
   },
   "getInTouch": {
     "pageTitle": "Get in touch",
