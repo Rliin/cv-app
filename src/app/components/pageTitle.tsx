@@ -15,7 +15,7 @@ async function PageTitle({ pageName, hasContent = true}: PageTitleProps) {
           {t("pageTitle")}
         </h1>
       </div>
-      {hasContent && <p className="mx-16 md:mx-0">{t("pageContent")}</p>}
+      {hasContent && <p className="mx-5 xs:mx-16 md:mx-0">{t("pageContent")}</p>}
     </div>
   );
 }

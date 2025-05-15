@@ -48,13 +48,13 @@ async function Introduction() {
       </div>
 
       <div className="order-first lg:order-last *:rounded-lg w-[310px] mx-auto">
-        <div className="absolute bg-[#E6E8EB] dark:bg-[#374151] z-10 m-12 h-70 w-70"></div>
-        <div className="relative z-20 border-10 rounded-lg border-white dark:border-[#030712] h-[310px] w-[310px]">
+        <div className="absolute bg-[#E6E8EB] dark:bg-[#374151] z-10 xs:m-12 m-9 h-64 w-64 xs:h-70 xs:w-70"></div>
+        <div className="relative z-20 border-10 rounded-lg border-white dark:border-[#030712] h-[280px] w-[280px] xs:h-[310px] xs:w-[310px]">
           <Image
             fill={true}
             src={photoIntroduction}
             alt="Profile"
-            className="rounded-lg"
+            className="rounded-lg justify-center"
             priority={true}
             quality={100}
             //sizes="290px"

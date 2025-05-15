@@ -16,19 +16,18 @@ async function GetInTouch() {
       <PageTitle pageName="getInTouch" />
 
       <div className="flex flex-col gap-5 mt-15 hover-effect-utility-child *:w-fit *:mx-auto">
-        <div className="flex flex-row gap-6 justify-center items-center">
-          <Mail size={35} />
+        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <Mail size={30} />
           <a
             href="mailto:burkay.cetinkaya.ds@gmail.com"
-            className="text-lg lg:text-[min(2vw,2.5rem)] dark:text-white"
+            className="text-base xs:text-lg lg:text-[min(2vw,2.5rem)] dark:text-white"
           >
             burkay.cetinkaya.ds@gmail.com
           </a>
-          {/* <Copy size={35}/> */}
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center mt-15 ">
+      <div className="flex flex-col justify-center text-center items-center mt-15 ">
         <p>{t("text")}</p>
         <div className="flex flex-row gap-3 mt-5 hover-effect-utility-child">
           <a href={gitHubUrl} target="_blank">
