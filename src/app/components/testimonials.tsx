@@ -43,7 +43,7 @@ async function Testimonials() {
                         target="_blank"
                       >
                         <CircleUserRound size={64} color="black"/>
-                        <p className="text-left text-base sm:text-lg xl:text-lg text-gray-400 font-light">{t(`testimonialText${index+1}`)}
+                        <p className="text-left text-base sm:text-lg xl:text-lg text-black dark:text-gray-400 font-light">{t(`testimonialText${index+1}`)}
                         </p>
                         <div className="flex flex-col items-center *:flex *:flex-row *:gap-2 *:items-center *:text-center *:text-pretty"
                         >

@@ -61,13 +61,13 @@ const Header = () => {
       {/* Navigation - Mobile */}
       <nav
         className={`${isMenuOpen ? "flex" : "hidden"}
-      fixed bottom-5 right-5 left-5 grid grid-cols-4 bg-[#FBFAFC] dark:bg-gray-950 text-xs *:flex *:justify-around dark:text-gray-400 gap-4 md:hidden rounded-2xl p-5
+      fixed bottom-5 right-5 left-5 grid grid-cols-4 bg-[#FBFAFC] dark:bg-gray-950 text-xs *:flex *:justify-around dark:text-gray-400 gap-y-7 md:hidden rounded-2xl p-5
       `}
       >
         <a
           href="#aboutMe"
           onClick={toggleMenu}
-          className="flex flex-col items-center gap-2"
+          className="flex flex-col items-center gap-y-3"
         >
           <Button size="BCustomSize">
             <User className="size-7" />
@@ -77,7 +77,7 @@ const Header = () => {
         <a
           href="#work"
           onClick={toggleMenu}
-          className="flex flex-col items-center gap-2"
+          className="flex flex-col items-center gap-y-3"
         >
           <Button size="BCustomSize">
             <Briefcase className="size-7" />
@@ -87,7 +87,7 @@ const Header = () => {
         <a
           href="#testimonials"
           onClick={toggleMenu}
-          className="flex flex-col items-center gap-2"
+          className="flex flex-col items-center gap-y-3"
         >
           <Button size="BCustomSize">
             <MessageCircleHeart className="size-7" />
@@ -97,19 +97,19 @@ const Header = () => {
         <a
           href="#getInTouch"
           onClick={toggleMenu}
-          className="flex flex-col items-center gap-2"
+          className="flex flex-col items-center gap-y-3"
         >
           <Button size="BCustomSize">
             <Mail className="size-7" />
           </Button>
           <p>Contact</p>
         </a>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center gap-y-3">
           <ModeToggle />
           <p className="hidden dark:block">Dark Mode</p>
           <p className="block dark:hidden">Light Mode</p>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center gap-y-3">
           <LanguageSwitcher />
           <p>Language</p>
         </div>
@@ -118,7 +118,7 @@ const Header = () => {
           href={cv}
           target="_blank"
           onClick={toggleMenu}
-          className="flex flex-col items-center gap-2"
+          className="flex flex-col items-center gap-y-3"
         >
           <Button size="BCustomSize">
             <FileDown className="size-7" />
@@ -126,7 +126,7 @@ const Header = () => {
           <p>CV</p>
         </a>
 
-        <a onClick={toggleMenu} className="flex flex-col items-center gap-2">
+        <a onClick={toggleMenu} className="flex flex-col items-center gap-y-3">
           <Button size="BCustomSize">
             <X className="size-7" />
           </Button>
