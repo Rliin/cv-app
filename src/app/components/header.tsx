@@ -17,10 +17,9 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import LanguageSwitcher from "./languageSwitcher";
 
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
+
   const t = useTranslations("header");
   const cv = t("cv");
 
@@ -30,18 +29,16 @@ const Header = () => {
 
   return (
     <header className="z-50 fixed top-0 right-0 left-0 flex flex-wrap justify-around items-center bg-(--first-color) shadow-[0px_4px_6px_0px_030712]">
-      {/* <div className="flex justify-around items-center w-full px-4 py-3 md:w-auto md:px-6">
-         <a href="#introduction" className="flex items-center text-lg font-bold">
-          {"<BC />"}
-        </a>
-      </div> */}
-      <Button
-        size="icon"
-        className="fixed bottom-10 right-10 z-60 p-2  md:hidden focus:outline-none"
-        onClick={toggleMenu}
-      >
-        {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-      </Button>
+      {!isMenuOpen && (
+        <Button
+          size="icon"
+          className="fixed bottom-10 right-10 z-60 p-2 md:hidden focus:outline-none"
+          onClick={toggleMenu}
+        >
+          <Menu size={24} />
+          {/* {isMenuOpen ? <X size={24} /> : <Menu size={24} />} */}
+        </Button>
+      )}
 
       {/* Navigation - Desktop */}
       <nav className="hidden md:flex items-center justify-end bg-(--first-color) gap-5 p-5 text-sm dark:text-gray-400 *:rounded-lg [&>a]:hover:scale-105 dark:[&>a]:hover:text-white [&>a]:transition-all [&>a]:duration-400">
@@ -64,41 +61,77 @@ const Header = () => {
       {/* Navigation - Mobile */}
       <nav
         className={`${isMenuOpen ? "flex" : "hidden"}
-      fixed bottom-5 right-5 grid grid-cols-4 bg-[#FBFAFC] dark:bg-gray-950 text-sm dark:text-gray-400 gap-4 md:hidden *:flex *:justify-center *:items-center rounded-2xl p-5
+      fixed bottom-5 right-5 left-5 grid grid-cols-4 bg-[#FBFAFC] dark:bg-gray-950 text-xs *:flex *:justify-around dark:text-gray-400 gap-4 md:hidden rounded-2xl p-5
       `}
       >
-        <Button size="icon">
-          <a href="#aboutMe" onClick={toggleMenu}>
-            <User />
-          </a>
-        </Button>
-        <Button size="icon">
-          <a href="#work" onClick={toggleMenu}>
-            <Briefcase />
-          </a>
-        </Button>
-        <Button size="icon">
-          <a href="#testimonials" onClick={toggleMenu}>
-            <MessageCircleHeart />
-          </a>
-        </Button>
-        <Button size="icon">
-          <a href="#getInTouch" onClick={toggleMenu}>
-            <Mail />
-          </a>
-        </Button>
-        <div>
+        <a
+          href="#aboutMe"
+          onClick={toggleMenu}
+          className="flex flex-col items-center gap-2"
+        >
+          <Button size="BCustomSize">
+            <User className="size-7" />
+          </Button>
+          <p>About</p>
+        </a>
+        <a
+          href="#work"
+          onClick={toggleMenu}
+          className="flex flex-col items-center gap-2"
+        >
+          <Button size="BCustomSize">
+            <Briefcase className="size-7" />
+          </Button>
+          <p>Projects</p>
+        </a>
+        <a
+          href="#testimonials"
+          onClick={toggleMenu}
+          className="flex flex-col items-center gap-2"
+        >
+          <Button size="BCustomSize">
+            <MessageCircleHeart className="size-7" />
+          </Button>
+          <p>Testimonials</p>
+        </a>
+        <a
+          href="#getInTouch"
+          onClick={toggleMenu}
+          className="flex flex-col items-center gap-2"
+        >
+          <Button size="BCustomSize">
+            <Mail className="size-7" />
+          </Button>
+          <p>Contact</p>
+        </a>
+        <div className="flex flex-col items-center">
           <ModeToggle />
+          <p className="hidden dark:block">Dark Mode</p>
+          <p className="block dark:hidden">Light Mode</p>
         </div>
-        <div>
+        <div className="flex flex-col items-center">
           <LanguageSwitcher />
+          <p>Language</p>
         </div>
 
-        <Button size="icon">
-          <a href={cv} target="_blank" onClick={toggleMenu}>
-            <FileDown />
-          </a>
-        </Button>
+        <a
+          href={cv}
+          target="_blank"
+          onClick={toggleMenu}
+          className="flex flex-col items-center gap-2"
+        >
+          <Button size="BCustomSize">
+            <FileDown className="size-7" />
+          </Button>
+          <p>CV</p>
+        </a>
+
+        <a onClick={toggleMenu} className="flex flex-col items-center gap-2">
+          <Button size="BCustomSize">
+            <X className="size-7" />
+          </Button>
+          <p>Close</p>
+        </a>
       </nav>
     </header>
   );
