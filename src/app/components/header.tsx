@@ -67,7 +67,7 @@ const Header = () => {
         <a
           href="#aboutMe"
           onClick={toggleMenu}
-          className="flex flex-col items-center gap-y-3"
+          className="flex flex-col items-center gap-y-3 text-center"
         >
           <Button size="BCustomSize">
             <User className="size-7" />
@@ -77,7 +77,7 @@ const Header = () => {
         <a
           href="#work"
           onClick={toggleMenu}
-          className="flex flex-col items-center gap-y-3"
+          className="flex flex-col items-center gap-y-3 text-center"
         >
           <Button size="BCustomSize">
             <Briefcase className="size-7" />
@@ -87,7 +87,7 @@ const Header = () => {
         <a
           href="#testimonials"
           onClick={toggleMenu}
-          className="flex flex-col items-center gap-y-3"
+          className="flex flex-col items-center gap-y-3 text-center"
         >
           <Button size="BCustomSize">
             <MessageCircleHeart className="size-7" />
@@ -97,19 +97,21 @@ const Header = () => {
         <a
           href="#getInTouch"
           onClick={toggleMenu}
-          className="flex flex-col items-center gap-y-3"
+          className="flex flex-col items-center gap-y-3 text-center"
         >
           <Button size="BCustomSize">
             <Mail className="size-7" />
           </Button>
           <p>{t("contact")}</p>
         </a>
-        <div className="flex flex-col items-center gap-y-3">
+
+        <div className="flex flex-col items-center gap-y-3 text-center">
           <ModeToggle />
           <p className="hidden dark:block">{t("darkMode")}</p>
           <p className="block dark:hidden">{t("lightMode")}</p>
         </div>
-        <div className="flex flex-col items-center gap-y-3">
+
+        <div className="flex flex-col items-center gap-y-3 text-center">
           <LanguageSwitcher />
           <p>{t("language")}</p>
         </div>
@@ -118,7 +120,7 @@ const Header = () => {
           href={cv}
           target="_blank"
           onClick={toggleMenu}
-          className="flex flex-col items-center gap-y-3"
+          className="flex flex-col items-center gap-y-3 text-center"
         >
           <Button size="BCustomSize">
             <FileDown className="size-7" />
@@ -126,7 +128,7 @@ const Header = () => {
           <p>{t("download-cv-mobile")}</p>
         </a>
 
-        <a onClick={toggleMenu} className="flex flex-col items-center gap-y-3">
+        <a onClick={toggleMenu} className="flex flex-col items-center gap-y-3 text-center">
           <Button size="BCustomSize">
             <X className="size-7" />
           </Button>
