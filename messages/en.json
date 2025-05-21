@@ -8,7 +8,11 @@
     "work": "Work",
     "testimonials": "Testimonials",
     "contact": "Contact",
-    "download-cv": "Download CV"
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "language": "Language",
+    "download-cv": "Download CV",
+    "close": "Close"
   },
   "introduction": {
     "title": "Hi, I'm Burkay 👋",

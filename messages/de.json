@@ -8,7 +8,11 @@
     "work": "Projekte",
     "testimonials": "Referenzen",
     "contact": "Kontakt",
-    "download-cv": "Lebenslauf"
+    "lightMode": "Heller Modus",
+    "darkMode":  "Dunkler Modus",
+    "language": "Sprache",
+    "download-cv": "Lebenslauf",
+    "close": "Schließen"
   },
   "introduction": {
     "title": "Hallo, ich bin Burkay 👋",

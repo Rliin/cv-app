@@ -8,7 +8,11 @@
     "work": "Çalışmalar",
     "testimonials": "Referanslar",
     "contact": "İletişim",
-    "download-cv": "CV'yi indir"
+    "lightMode": "Aydınlık Mod",
+    "darkMode": "Karanlık Mod",
+    "language": "Dil",
+    "download-cv": "CV'yi indir",
+    "close": "Kapat"
   },
   "introduction": {
     "title": "Merhaba, ben Burkay 👋",
