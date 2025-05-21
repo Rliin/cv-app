@@ -123,7 +123,7 @@ const Header = () => {
           <Button size="BCustomSize">
             <FileDown className="size-7" />
           </Button>
-          <p>{t("download-cv")}</p>
+          <p>{t("download-cv-mobile")}</p>
         </a>
 
         <a onClick={toggleMenu} className="flex flex-col items-center gap-y-3">
