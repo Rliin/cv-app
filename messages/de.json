@@ -70,6 +70,19 @@
     "gikat li3": "Ich habe sowohl Großveranstaltungen mit 1000 Teilnehmern als auch kleinere Events mit 50 Teilnehmern geplant und geleitet.",
     "gikat date": "Okt 2021 - Jan 2023"
   },
+  "education": {
+  "pageTitle": "Ausbildung",
+
+  "educationTitle1": "Selcuk Universität",
+  "su organization": "Bachelorstudium, Elektrotechnik und Elektronik",
+  "educationLi1": "Ehrenurkunde und Fachbereichsbeste in den akademischen Jahren 2021 und 2022",
+  "educationDate1": "Sep 2021 - Jun 2025",
+
+  "educationTitle2": "Università degli Studi di Palermo",
+  "up organization": "Bachelorstudium, Informationstechnologie",
+  "educationLi2": "Erasmus+ Studienaufenthalt in Palermo, Italien",
+  "educationDate2": "Feb 2023 - Aug 2023"
+},
   "work": {
     "pageTitle": "Projekte",
     "pageContent": "Einige bemerkenswerte Projekte, die ich umgesetzt habe:",

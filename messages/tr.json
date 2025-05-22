@@ -70,6 +70,19 @@
     "gikat li3": "1000 katılımcılı büyük ölçekli etkinliklerin yanı sıra 50 kişilik daha küçük etkinlikleri de tasarlayıp yönettim.",
     "gikat date": "Eki 2021 - Oca 2023"
   },
+  "education": {
+  "pageTitle": "Eğitim",
+
+  "educationTitle1": "Selçuk Üniversitesi",
+  "su organization": "Lisans, Elektrik ve Elektronik Mühendisliği",
+  "educationLi1": "2021 ve 2022 akademik yıllarında Yüksek Onur Belgesi ve Bölüm Birinciliği",
+  "educationDate1": "Eyl 2021 - Haz 2025",
+
+  "educationTitle2": "Università degli Studi di Palermo",
+  "up organization": "Lisans, Bilişim Teknolojileri",
+  "educationLi2": "İtalya'nın Palermo şehrinde Erasmus+ Öğrenim Hareketliliği",
+  "educationDate2": "Şub 2023 - Ağu 2023"
+},
   "work": {
     "pageTitle": "Çalışmalar",
     "pageContent": "Yaptığım dikkat çekici projelerden bazıları:",

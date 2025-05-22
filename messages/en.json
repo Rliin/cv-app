@@ -70,6 +70,19 @@
     "gikat li3": "Designed and managed large-scale events with 1000 participants as well as smaller events with 50 participants.",
     "gikat date": "Oct 2021 - Jan 2023"
   },
+  "education": {
+    "pageTitle": "Education",
+
+    "educationTitle1": "Selcuk University",
+    "su organization": "Bachelor's degree, Electrical and Electronics Engineering",
+    "educationLi1": "High Honor Certificate and Departmental First Place in the 2021 and 2022 academic years",
+    "educationDate1": "Sep 2021 - Jun 2025",
+
+    "educationTitle2": "Università degli Studi di Palermo",
+    "up organization": "Bachelor's degree, Information Technology",
+    "educationLi2": "Erasmus+ Study Mobility at Palermo, Italy",
+    "educationDate2": "Feb 2023 - Aug 2023"
+  },
   "work": {
     "pageTitle": "Work",
     "pageContent": "Some of the noteworthy projects I have built:",

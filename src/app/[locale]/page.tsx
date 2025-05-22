@@ -7,6 +7,7 @@ import Work from "@/app/components/work";
 import Testimonials from "@/app/components/testimonials";
 import GetInTouch from "@/app/components/getInTouch";
 import Footer from "@/app/components/footer";
+import Education from "../components/education";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     <AboutMe/>
     <Skills/>
     <Experience/>
+    <Education/>
     <Work/>
     <Testimonials/>
     <GetInTouch/>
