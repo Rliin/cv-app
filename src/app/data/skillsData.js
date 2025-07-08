@@ -1,4 +1,4 @@
-export default [
+const skilsData = [
   {
     logo: "javascript-svgrepo-com",
     logoDark: "javascript-svgrepo-com",
@@ -85,3 +85,5 @@ export default [
     text: "Git",
   }
 ]
+
+export default skilsData;

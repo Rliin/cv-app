@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
-import { Wave1 } from "./waveSvg";
 import ExperienceData from "@/app/data/experienceData";
 import PageTitle from "./pageTitle";
 

@@ -1,4 +1,4 @@
-export default [
+const experienceData = [
   {
     image: {
       src: "/experience-logos/iotechLogo.jpg",
@@ -53,3 +53,5 @@ export default [
     dates: "gikat date",
   }
 ]
+
+export default experienceData;

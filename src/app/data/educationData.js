@@ -1,4 +1,4 @@
-export default [
+const educationData = [
   {
     image: {
       src: "/education-logos/SULogo.jpg",
@@ -24,3 +24,5 @@ export default [
     dates: "educationDate2",
   }
 ]
+
+export default educationData;
