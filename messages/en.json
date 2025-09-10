@@ -17,7 +17,7 @@
   },
   "introduction": {
     "title": "Hi, I'm Burkay 👋",
-    "text": "Soon-to-be Electrical and Electronics Engineering graduate with internship experience in both game development and industrial software. Proficient in modern frontend technologies including JavaScript, TypeScript, React, Next.js, and Tailwind, with additional experience in C# and Unity. Adaptable and fast-learning, I’m seeking a junior software engineering position—primarily in frontend development—where I can contribute to impactful projects while continuing to grow as a developer.",
+    "text": "I am an Electrical and Electronics Engineer passionate about creating technological solutions and aiming for continuous development. I am proficient in JavaScript, TypeScript, React, Next.js, C#, and C++ technologies. I gained flexibility through international experiences and have expertise in web-based SCADA automation systems and game development projects. In my graduation project, I worked on a cross-platform e-commerce application using React and Kotlin. My hobbies include following current technology and gaming trends, as well as taking long walks.",
     "location": "Eskişehir, Turkey",
     "availability": "Available for opportunities"
   },
@@ -25,12 +25,12 @@
     "pageTitle": "About Me",
     "title": "Curious about me? Here you have it:",
 
-    "text1": "I'm an aspiring software engineer with a background in Electrical and Electronics Engineering, graduating in just a month. My journey into tech began with a passion for games and evolved through hands-on experience at a video game studio and a SCADA software company. That mix taught me to think creatively while building reliable systems—and I loved every second of it.",
+    "text1": "I'm an aspiring software engineer with a background in Electrical and Electronics Engineering. My journey into tech began with a passion for games and evolved through hands-on experience at a video game studio and a SCADA software company. That mix taught me to think creatively while building reliable systems—and I loved every second of it.",
     "text2": "I specialize in frontend development using React, Next.js, TypeScript, and Tailwind CSS. I’ve also dabbled in Unity and C#, which gives me an eye for design and interactivity. I'm deeply interested in creating smooth, accessible, and well-structured digital experiences that users actually enjoy.",
     "text3": "I’m a fast learner, always curious, and not afraid to dive into new stacks or work across the full product lifecycle—from brainstorm to deploy. Whether I’m building components, fixing bugs, or learning about some obscure corner of the web, I’m all in.",
     "text4": "When I'm not coding, I'm either tweaking Cities: Skylines layouts, watching game dev breakdowns, or keeping up with the latest in frontend trends. You’ll probably find me lurking on GitHub or saving design inspo I’ll definitely use “soon”.",
 
-    "li1": "Almost-graduate in Electrical & Electronics Engineering",
+    "li1": "Electrical and Electronics Engineering graduate",
     "li2": "Two internships: game dev + industrial software",
     "li3": "Looking for junior frontend roles (but open to surprises)",
     "li4": "Open to freelance and full-time opportunities",
